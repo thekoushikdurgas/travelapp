@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:pin_code_fields/pin_code_fields.dart';
 import 'package:travelapp/core/app_export.dart';
-import 'package:travelapp/presentation/widgets/custom_button.dart';
-import 'package:travelapp/presentation/widgets/custom_icon_button.dart';
+import 'package:travelapp/widgets/custom_button.dart';
+import 'package:travelapp/widgets/custom_icon_button.dart';
 
 import '../controller/verification_controller.dart';
 

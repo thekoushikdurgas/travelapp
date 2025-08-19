@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:travelapp/core/app_export.dart';
-import 'package:travelapp/presentation/widgets/app_bar/appbar_iconbutton.dart';
-import 'package:travelapp/presentation/widgets/app_bar/custom_app_bar.dart';
-import 'package:travelapp/presentation/widgets/custom_icon_button.dart';
+import 'package:travelapp/widgets/app_bar/appbar_iconbutton.dart';
+import 'package:travelapp/widgets/app_bar/custom_app_bar.dart';
+import 'package:travelapp/widgets/custom_bottom_navigation_bar.dart';
 
 import '../widgets/home_item_widget.dart';
 import '../controller/home_controller.dart';
@@ -15,6 +15,36 @@ class HomeScreen extends GetWidget<HomeController> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
+        bottomNavigationBar: Obx(
+          () => CustomBottomNavigationBar(
+            currentIndex: controller.currentIndex.value,
+            onTap: (index) => controller.changeBottomNavIndex(index),
+            items: List.generate(
+              controller.navIcons.length,
+              (index) => BottomNavItem(
+                icon: controller.navIcons[index],
+                label: index == 0
+                    ? 'Home'
+                    : index == 1
+                        ? 'Calendar'
+                        : index == 2
+                            ? 'Search'
+                            : index == 3
+                                ? 'Messages'
+                                : 'Profile',
+                route: index == 0
+                    ? AppRoutes.homeScreen
+                    : index == 1
+                        ? AppRoutes.scheduleScreen
+                        : index == 2
+                            ? AppRoutes.searchScreen
+                            : index == 3
+                                ? AppRoutes.messagesScreen
+                                : AppRoutes.profileScreen,
+              ),
+            ),
+          ),
+        ),
         backgroundColor: ColorConstant.whiteA700,
         appBar: CustomAppBar(
           height: getVerticalSize(
@@ -272,289 +302,7 @@ class HomeScreen extends GetWidget<HomeController> {
                     ),
                   ),
                 ),
-                Align(
-                  alignment: Alignment.centerLeft,
-                  child: Container(
-                    height: getVerticalSize(
-                      98.00,
-                    ),
-                    width: size.width,
-                    margin: getMargin(
-                      top: 30,
-                    ),
-                    child: Stack(
-                      alignment: Alignment.topLeft,
-                      children: [
-                        Align(
-                          alignment: Alignment.centerLeft,
-                          child: ClipRRect(
-                            borderRadius: BorderRadius.circular(
-                              getHorizontalSize(
-                                30.00,
-                              ),
-                            ),
-                            child: CommonImageView(
-                              svgPath: ImageConstant.imgRectangle15,
-                              height: getVerticalSize(
-                                98.00,
-                              ),
-                              width: getHorizontalSize(
-                                375.00,
-                              ),
-                              fit: BoxFit.cover,
-                            ),
-                          ),
-                        ),
-                        Align(
-                          alignment: Alignment.topLeft,
-                          child: Padding(
-                            padding: getPadding(
-                              top: 12,
-                              bottom: 12,
-                            ),
-                            child: Row(
-                              crossAxisAlignment: CrossAxisAlignment.center,
-                              mainAxisSize: MainAxisSize.max,
-                              children: [
-                                Padding(
-                                  padding: getPadding(
-                                    left: 21,
-                                    top: 8,
-                                    bottom: 10,
-                                  ),
-                                  child: Column(
-                                    mainAxisSize: MainAxisSize.min,
-                                    crossAxisAlignment:
-                                        CrossAxisAlignment.start,
-                                    mainAxisAlignment: MainAxisAlignment.start,
-                                    children: [
-                                      Align(
-                                        alignment: Alignment.center,
-                                        child: Padding(
-                                          padding: getPadding(
-                                            left: 4,
-                                            right: 4,
-                                          ),
-                                          child: CommonImageView(
-                                            svgPath: ImageConstant.imgHome,
-                                            height: getSize(
-                                              24.00,
-                                            ),
-                                            width: getSize(
-                                              24.00,
-                                            ),
-                                          ),
-                                        ),
-                                      ),
-                                      Padding(
-                                        padding: getPadding(
-                                          top: 4,
-                                        ),
-                                        child: Text(
-                                          'lbl_home'.tr,
-                                          overflow: TextOverflow.ellipsis,
-                                          textAlign: TextAlign.left,
-                                          style: AppStyle.txtSFUIDisplayMedium12
-                                              .copyWith(
-                                            height: 1.00,
-                                          ),
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                                InkWell(
-                                  onTap: () {
-                                    Get.toNamed(AppRoutes.scheduleScreen);
-                                  },
-                                  child: Padding(
-                                    padding: getPadding(
-                                      left: 36,
-                                      top: 8,
-                                      bottom: 10,
-                                    ),
-                                    child: Column(
-                                      mainAxisSize: MainAxisSize.min,
-                                      crossAxisAlignment:
-                                          CrossAxisAlignment.center,
-                                      mainAxisAlignment:
-                                          MainAxisAlignment.start,
-                                      children: [
-                                        Padding(
-                                          padding: getPadding(
-                                            left: 10,
-                                            right: 10,
-                                          ),
-                                          child: CommonImageView(
-                                            svgPath: ImageConstant.imgCalendar,
-                                            height: getSize(
-                                              24.00,
-                                            ),
-                                            width: getSize(
-                                              24.00,
-                                            ),
-                                          ),
-                                        ),
-                                        Align(
-                                          alignment: Alignment.centerLeft,
-                                          child: Padding(
-                                            padding: getPadding(
-                                              top: 4,
-                                            ),
-                                            child: Text(
-                                              'lbl_calendar'.tr,
-                                              overflow: TextOverflow.ellipsis,
-                                              textAlign: TextAlign.left,
-                                              style: AppStyle
-                                                  .txtSFUIDisplayRegular12
-                                                  .copyWith(
-                                                height: 1.00,
-                                              ),
-                                            ),
-                                          ),
-                                        ),
-                                      ],
-                                    ),
-                                  ),
-                                ),
-                                InkWell(
-                                  onTap: () {
-                                    Get.toNamed(AppRoutes.searchScreen);
-                                  },
-                                  child: CustomIconButton(
-                                    height: 50,
-                                    width: 50,
-                                    margin: getMargin(
-                                      left: 28,
-                                      top: 5,
-                                      bottom: 5,
-                                    ),
-                                    variant:
-                                        IconButtonVariant.outlineBlueA4002b,
-                                    shape: IconButtonShape.circleBorder25,
-                                    padding: IconButtonPadding.paddingAll16,
-                                    child: CommonImageView(
-                                      svgPath: ImageConstant.imgSearch,
-                                    ),
-                                  ),
-                                ),
-                                InkWell(
-                                  onTap: () {
-                                    Get.toNamed(AppRoutes.messagesScreen);
-                                  },
-                                  child: Padding(
-                                    padding: getPadding(
-                                      left: 22,
-                                      top: 8,
-                                      bottom: 8,
-                                    ),
-                                    child: Column(
-                                      mainAxisSize: MainAxisSize.min,
-                                      crossAxisAlignment:
-                                          CrossAxisAlignment.center,
-                                      mainAxisAlignment:
-                                          MainAxisAlignment.start,
-                                      children: [
-                                        Padding(
-                                          padding: getPadding(
-                                            left: 15,
-                                            right: 15,
-                                          ),
-                                          child: CommonImageView(
-                                            svgPath: ImageConstant.imgUser24x24,
-                                            height: getSize(
-                                              24.00,
-                                            ),
-                                            width: getSize(
-                                              24.00,
-                                            ),
-                                          ),
-                                        ),
-                                        Align(
-                                          alignment: Alignment.centerLeft,
-                                          child: Padding(
-                                            padding: getPadding(
-                                              top: 4,
-                                            ),
-                                            child: Text(
-                                              'lbl_messages'.tr,
-                                              overflow: TextOverflow.ellipsis,
-                                              textAlign: TextAlign.left,
-                                              style: AppStyle
-                                                  .txtSFUIDisplayRegular12
-                                                  .copyWith(
-                                                height: 1.00,
-                                              ),
-                                            ),
-                                          ),
-                                        ),
-                                      ],
-                                    ),
-                                  ),
-                                ),
-                                InkWell(
-                                  onTap: () {
-                                    Get.toNamed(AppRoutes.profileScreen);
-                                  },
-                                  child: Padding(
-                                    padding: getPadding(
-                                      left: 31,
-                                      top: 8,
-                                      right: 21,
-                                      bottom: 10,
-                                    ),
-                                    child: Column(
-                                      mainAxisSize: MainAxisSize.min,
-                                      crossAxisAlignment:
-                                          CrossAxisAlignment.start,
-                                      mainAxisAlignment:
-                                          MainAxisAlignment.start,
-                                      children: [
-                                        Align(
-                                          alignment: Alignment.center,
-                                          child: Padding(
-                                            padding: getPadding(
-                                              left: 4,
-                                              right: 4,
-                                            ),
-                                            child: CommonImageView(
-                                              svgPath: ImageConstant.imgUser1,
-                                              height: getSize(
-                                                24.00,
-                                              ),
-                                              width: getSize(
-                                                24.00,
-                                              ),
-                                            ),
-                                          ),
-                                        ),
-                                        Padding(
-                                          padding: getPadding(
-                                            top: 4,
-                                          ),
-                                          child: Text(
-                                            'lbl_profile'.tr,
-                                            overflow: TextOverflow.ellipsis,
-                                            textAlign: TextAlign.left,
-                                            style: AppStyle
-                                                .txtSFUIDisplayRegular12
-                                                .copyWith(
-                                              height: 1.00,
-                                            ),
-                                          ),
-                                        ),
-                                      ],
-                                    ),
-                                  ),
-                                ),
-                              ],
-                            ),
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                ),
+                SizedBox(height: getVerticalSize(30.00)),
               ],
             ),
           ),

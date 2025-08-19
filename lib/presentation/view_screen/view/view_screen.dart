@@ -1,9 +1,9 @@
 import '../controller/view_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:travelapp/core/app_export.dart';
-import 'package:travelapp/presentation/widgets/app_bar/appbar_iconbutton_1.dart';
-import 'package:travelapp/presentation/widgets/app_bar/appbar_subtitle.dart';
-import 'package:travelapp/presentation/widgets/app_bar/custom_app_bar.dart';
+import 'package:travelapp/widgets/app_bar/appbar_iconbutton_1.dart';
+import 'package:travelapp/widgets/app_bar/appbar_subtitle.dart';
+import 'package:travelapp/widgets/app_bar/custom_app_bar.dart';
 
 class ViewScreen extends GetWidget<ViewController> {
   const ViewScreen({Key? key}) : super(key: key);

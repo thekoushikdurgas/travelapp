@@ -1,11 +1,11 @@
 import '../controller/chats_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:travelapp/core/app_export.dart';
-import 'package:travelapp/presentation/widgets/app_bar/appbar_iconbutton.dart';
-import 'package:travelapp/presentation/widgets/app_bar/appbar_title.dart';
-import 'package:travelapp/presentation/widgets/app_bar/custom_app_bar.dart';
-import 'package:travelapp/presentation/widgets/custom_button.dart';
-import 'package:travelapp/presentation/widgets/custom_floating_button.dart';
+import 'package:travelapp/widgets/app_bar/appbar_iconbutton.dart';
+import 'package:travelapp/widgets/app_bar/appbar_title.dart';
+import 'package:travelapp/widgets/app_bar/custom_app_bar.dart';
+import 'package:travelapp/widgets/custom_button.dart';
+import 'package:travelapp/widgets/custom_floating_button.dart';
 
 class ChatsScreen extends GetWidget<ChatsController> {
   const ChatsScreen({Key? key}) : super(key: key);

@@ -1,20 +1,20 @@
 import '/core/app_export.dart';
-import 'package:travelapp/presentation/home_screen/models/home_model.dart';
+import 'package:travelapp/presentation/booking/models/booking_model.dart';
 import 'package:travelapp/core/controllers/base_navigation_controller.dart';
 
-class HomeController extends BaseNavigationController {
-  Rx<HomeModel> homeModelObj = HomeModel().obs;
+class BookingController extends BaseNavigationController {
+  Rx<BookingModel> bookingModelObj = BookingModel().obs;
 
   @override
   void onInit() {
     super.onInit();
-    currentIndex.value = 0; // Home screen is at index 0
+    currentIndex.value = 3; // Booking screen is at index 3
   }
 
   @override
   void changeBottomNavIndex(int index, {bool isCurrentScreen = false}) {
-    // For home screen, always mark index 0 as current screen
-    if (index == 0) {
+    // For booking screen, always mark index 3 as current screen
+    if (index == 3) {
       super.changeBottomNavIndex(index, isCurrentScreen: true);
     } else {
       super.changeBottomNavIndex(index);

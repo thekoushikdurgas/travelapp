@@ -1,11 +1,11 @@
 import '../controller/edit_profile_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:travelapp/core/app_export.dart';
-import 'package:travelapp/presentation/widgets/app_bar/appbar_iconbutton.dart';
-import 'package:travelapp/presentation/widgets/app_bar/appbar_subtitle_1.dart';
-import 'package:travelapp/presentation/widgets/app_bar/appbar_title.dart';
-import 'package:travelapp/presentation/widgets/app_bar/custom_app_bar.dart';
-import 'package:travelapp/presentation/widgets/custom_text_form_field.dart';
+import 'package:travelapp/widgets/app_bar/appbar_iconbutton.dart';
+import 'package:travelapp/widgets/app_bar/appbar_subtitle_1.dart';
+import 'package:travelapp/widgets/app_bar/appbar_title.dart';
+import 'package:travelapp/widgets/app_bar/custom_app_bar.dart';
+import 'package:travelapp/widgets/custom_text_form_field.dart';
 
 class EditProfileScreen extends GetWidget<EditProfileController> {
   const EditProfileScreen({Key? key}) : super(key: key);

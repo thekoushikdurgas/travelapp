@@ -1,10 +1,11 @@
 import '../controller/profile_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:travelapp/core/app_export.dart';
-import 'package:travelapp/presentation/widgets/app_bar/appbar_iconbutton.dart';
-import 'package:travelapp/presentation/widgets/app_bar/appbar_title.dart';
-import 'package:travelapp/presentation/widgets/app_bar/custom_app_bar.dart';
-import 'package:travelapp/presentation/widgets/custom_radio_button.dart';
+import 'package:travelapp/widgets/app_bar/appbar_iconbutton.dart';
+import 'package:travelapp/widgets/app_bar/appbar_title.dart';
+import 'package:travelapp/widgets/app_bar/custom_app_bar.dart';
+import 'package:travelapp/widgets/custom_radio_button.dart';
+import 'package:travelapp/widgets/custom_bottom_navigation_bar.dart';
 
 class ProfileScreen extends GetWidget<ProfileController> {
   const ProfileScreen({Key? key}) : super(key: key);
@@ -13,6 +14,36 @@ class ProfileScreen extends GetWidget<ProfileController> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
+        bottomNavigationBar: Obx(
+          () => CustomBottomNavigationBar(
+            currentIndex: controller.currentIndex.value,
+            onTap: (index) => controller.changeBottomNavIndex(index),
+            items: List.generate(
+              controller.navIcons.length,
+              (index) => BottomNavItem(
+                icon: controller.navIcons[index],
+                label: index == 0
+                    ? 'Home'
+                    : index == 1
+                        ? 'Calendar'
+                        : index == 2
+                            ? 'Travel'
+                            : index == 3
+                                ? 'Booking'
+                                : 'Profile',
+                route: index == 0
+                    ? AppRoutes.homeScreen
+                    : index == 1
+                        ? AppRoutes.scheduleScreen
+                        : index == 2
+                            ? AppRoutes.travelScreen
+                            : index == 3
+                                ? AppRoutes.bookingScreen
+                                : AppRoutes.profileScreen,
+              ),
+            ),
+          ),
+        ),
         backgroundColor: ColorConstant.whiteA700,
         appBar: CustomAppBar(
           height: getVerticalSize(56.00),

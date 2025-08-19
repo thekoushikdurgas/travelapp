@@ -2,7 +2,7 @@ import '../controller/all_popular_trip_package_controller.dart';
 import '../models/listrectangle843_item_model.dart';
 import 'package:flutter/material.dart';
 import 'package:travelapp/core/app_export.dart';
-import 'package:travelapp/presentation/widgets/custom_button.dart';
+import 'package:travelapp/widgets/custom_button.dart';
 
 // ignore: must_be_immutable
 class Listrectangle843ItemWidget extends StatelessWidget {

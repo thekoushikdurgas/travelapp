@@ -3,9 +3,9 @@ import '../controller/all_popular_trip_package_controller.dart';
 import '../models/listrectangle843_item_model.dart';
 import 'package:flutter/material.dart';
 import 'package:travelapp/core/app_export.dart';
-import 'package:travelapp/presentation/widgets/app_bar/appbar_iconbutton.dart';
-import 'package:travelapp/presentation/widgets/app_bar/appbar_title.dart';
-import 'package:travelapp/presentation/widgets/app_bar/custom_app_bar.dart';
+import 'package:travelapp/widgets/app_bar/appbar_iconbutton.dart';
+import 'package:travelapp/widgets/app_bar/appbar_title.dart';
+import 'package:travelapp/widgets/app_bar/custom_app_bar.dart';
 
 class AllPopularTripPackageScreen
     extends GetWidget<AllPopularTripPackageController> {
