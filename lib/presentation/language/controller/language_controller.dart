@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:get/get.dart';
+// import 'package:get/get.dart';
 import 'package:travelapp/core/app_export.dart';
 import 'package:travelapp/presentation/language/models/language_model.dart';
 import 'package:travelapp/core/services/debug_logger.dart';
-import 'package:travelapp/core/localization/language_utils.dart';
+// import 'package:travelapp/core/localization/language_utils.dart';
 
 class LanguageController extends GetxController {
   Rx<LanguageModel> languageModelObj = LanguageModel().obs;
@@ -86,20 +86,20 @@ class LanguageController extends GetxController {
         // Provide haptic feedback for successful action
         HapticFeedback.mediumImpact();
 
-        // Navigate to sign in screen after language selection
-        Get.toNamed(AppRoutes.signInScreen);
+        // Navigate to welcome screen after language selection
+        Get.toNamed(AppRoutes.welcomeScreen);
       } else {
         DebugLogger.warning(
           'LanguageController: No language selected, using default',
         );
         // Default to English if nothing selected
         Get.updateLocale(const Locale('en', 'US'));
-        Get.toNamed(AppRoutes.signInScreen);
+        Get.toNamed(AppRoutes.welcomeScreen);
       }
     } catch (e) {
       DebugLogger.error('LanguageController: Error applying language: $e');
       // Continue to next screen even if there's an error
-      Get.toNamed(AppRoutes.signInScreen);
+      Get.toNamed(AppRoutes.welcomeScreen);
     }
   }
 
@@ -115,14 +115,14 @@ class LanguageController extends GetxController {
 
       DebugLogger.success('LanguageController: Default language (English) set');
 
-      // Navigate to sign in screen
-      Get.toNamed(AppRoutes.signInScreen);
+      // Navigate to welcome screen
+      Get.toNamed(AppRoutes.welcomeScreen);
     } catch (e) {
       DebugLogger.error(
         'LanguageController: Error setting default language: $e',
       );
       // Continue to next screen even if there's an error
-      Get.toNamed(AppRoutes.signInScreen);
+      Get.toNamed(AppRoutes.welcomeScreen);
     }
   }
 }

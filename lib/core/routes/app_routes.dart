@@ -1,44 +1,48 @@
-import 'package:travelapp/presentation/splash_screen/splash_screen.dart';
+import 'package:travelapp/presentation/splash_screen/view/splash_screen.dart';
 import 'package:travelapp/presentation/splash_screen/binding/splash_binding.dart';
-import 'package:travelapp/presentation/introduction/introduction.dart';
+import 'package:travelapp/presentation/introduction/view/introduction.dart';
 import 'package:travelapp/presentation/introduction/binding/introduction_binding.dart';
-import 'package:travelapp/presentation/language/language_screen.dart';
+import 'package:travelapp/presentation/language/view/language_screen.dart';
 import 'package:travelapp/presentation/language/binding/language_binding.dart';
-import 'package:travelapp/presentation/sign_in_screen/sign_in_screen.dart';
+import 'package:travelapp/presentation/welcome/view/welcome.dart';
+import 'package:travelapp/presentation/welcome/binding/welcome_binding.dart';
+import 'package:travelapp/presentation/welcome/widgets/pin_verification_screen.dart';
+import 'package:travelapp/presentation/welcome/binding/pin_verification_binding.dart';
+import 'package:travelapp/presentation/sign_in_screen/view/sign_in_screen.dart';
 import 'package:travelapp/presentation/sign_in_screen/binding/sign_in_binding.dart';
-import 'package:travelapp/presentation/sign_up_screen/sign_up_screen.dart';
+import 'package:travelapp/presentation/sign_up_screen/view/sign_up_screen.dart';
 import 'package:travelapp/presentation/sign_up_screen/binding/sign_up_binding.dart';
-import 'package:travelapp/presentation/forgot_password_screen/forgot_password_screen.dart';
+import 'package:travelapp/presentation/forgot_password_screen/view/forgot_password_screen.dart';
 import 'package:travelapp/presentation/forgot_password_screen/binding/forgot_password_binding.dart';
-import 'package:travelapp/presentation/verification_screen/verification_screen.dart';
+import 'package:travelapp/presentation/verification_screen/view/verification_screen.dart';
 import 'package:travelapp/presentation/verification_screen/binding/verification_binding.dart';
-import 'package:travelapp/presentation/home_screen/home_screen.dart';
+import 'package:travelapp/presentation/home_screen/view/home_screen.dart';
 import 'package:travelapp/presentation/home_screen/binding/home_binding.dart';
-import 'package:travelapp/presentation/details_screen/details_screen.dart';
+import 'package:travelapp/presentation/details_screen/view/details_screen.dart';
 import 'package:travelapp/presentation/details_screen/binding/details_binding.dart';
-import 'package:travelapp/presentation/view_screen/view_screen.dart';
+import 'package:travelapp/presentation/view_screen/view/view_screen.dart';
 import 'package:travelapp/presentation/view_screen/binding/view_binding.dart';
-import 'package:travelapp/presentation/schedule_screen/schedule_screen.dart';
+import 'package:travelapp/presentation/schedule_screen/view/schedule_screen.dart';
 import 'package:travelapp/presentation/schedule_screen/binding/schedule_binding.dart';
-import 'package:travelapp/presentation/popular_places_screen/popular_places_screen.dart';
+import 'package:travelapp/presentation/popular_places_screen/view/popular_places_screen.dart';
 import 'package:travelapp/presentation/popular_places_screen/binding/popular_places_binding.dart';
-import 'package:travelapp/presentation/profile_screen/profile_screen.dart';
+import 'package:travelapp/presentation/profile_screen/view/profile_screen.dart';
 import 'package:travelapp/presentation/profile_screen/binding/profile_binding.dart';
-import 'package:travelapp/presentation/all_popular_trip_package_screen/all_popular_trip_package_screen.dart';
+import 'package:travelapp/presentation/all_popular_trip_package_screen/view/all_popular_trip_package_screen.dart';
 import 'package:travelapp/presentation/all_popular_trip_package_screen/binding/all_popular_trip_package_binding.dart';
-import 'package:travelapp/presentation/favorite_places_screen/favorite_places_screen.dart';
+import 'package:travelapp/presentation/favorite_places_screen/view/favorite_places_screen.dart';
 import 'package:travelapp/presentation/favorite_places_screen/binding/favorite_places_binding.dart';
-import 'package:travelapp/presentation/messages_screen/messages_screen.dart';
+import 'package:travelapp/presentation/messages_screen/view/messages_screen.dart';
 import 'package:travelapp/presentation/messages_screen/binding/messages_binding.dart';
-import 'package:travelapp/presentation/chats_screen/chats_screen.dart';
+import 'package:travelapp/presentation/chats_screen/view/chats_screen.dart';
 import 'package:travelapp/presentation/chats_screen/binding/chats_binding.dart';
-import 'package:travelapp/presentation/search_screen/search_screen.dart';
+import 'package:travelapp/presentation/search_screen/view/search_screen.dart';
 import 'package:travelapp/presentation/search_screen/binding/search_binding.dart';
-import 'package:travelapp/presentation/edit_profile_screen/edit_profile_screen.dart';
+import 'package:travelapp/presentation/edit_profile_screen/view/edit_profile_screen.dart';
 import 'package:travelapp/presentation/edit_profile_screen/binding/edit_profile_binding.dart';
-import 'package:travelapp/presentation/notification_screen/notification_screen.dart';
+import 'package:travelapp/presentation/notification_screen/view/notification_screen.dart';
 import 'package:travelapp/presentation/notification_screen/binding/notification_binding.dart';
-import 'package:travelapp/presentation/app_navigation_screen/app_navigation_screen.dart';
+import 'package:travelapp/presentation/app_navigation_screen/view/app_navigation_screen.dart';
 import 'package:travelapp/presentation/app_navigation_screen/binding/app_navigation_binding.dart';
 import 'package:get/get.dart';
 
@@ -48,6 +52,10 @@ class AppRoutes {
   static String introductionScreen = '/introduction_screen';
 
   static String languageScreen = '/language_screen';
+
+  static String welcomeScreen = '/welcome_screen';
+
+  static String pinVerificationScreen = '/pin_verification_screen';
 
   static String signInScreen = '/sign_in_screen';
 
@@ -108,6 +116,20 @@ class AppRoutes {
       page: () => const LanguageScreen(),
       bindings: [
         LanguageBinding(),
+      ],
+    ),
+    GetPage(
+      name: welcomeScreen,
+      page: () => const WelcomeScreen(),
+      bindings: [
+        WelcomeBinding(),
+      ],
+    ),
+    GetPage(
+      name: pinVerificationScreen,
+      page: () => const PinVerificationScreen(),
+      bindings: [
+        PinVerificationBinding(),
       ],
     ),
     GetPage(

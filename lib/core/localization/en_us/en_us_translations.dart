@@ -1,4 +1,40 @@
 final Map<String, String> enUs = {
+  // Welcome Screen
+  'lbl_welcome_to_travel': 'Welcome to Travel App',
+  'msg_discover_new_destinations':
+      'Discover new destinations and create unforgettable memories',
+  'msg_explore': 'Explore',
+  'msg_safe': 'Safe',
+  'msg_support': '24/7 Support',
+  'msg_terms_agreement': 'By continuing, you agree to our ',
+  'lbl_terms_of_service': 'Terms of Service',
+  'lbl_and': ' and ',
+  'lbl_privacy_policy': 'Privacy Policy',
+
+  // Phone Login Bottom Sheet
+  'lbl_enter_phone': 'Enter your phone number',
+  'lbl_phone_hint': 'Enter phone number',
+  'lbl_continue': 'Continue',
+  'lbl_or': 'OR',
+  'lbl_select_country': 'Select Country',
+  'lbl_search_country': 'Search by country name or code',
+  'msg_no_countries': 'No countries found',
+  'msg_search_tip': 'Try different search term',
+  'msg_invalid_phone': 'Please enter a valid phone number',
+  'msg_network_error': 'Network error. Please try again',
+  'msg_coming_soon': 'Coming soon!',
+  'msg_login_failed': 'Login failed. Please try again',
+  'msg_terms_prefix': 'By continuing, you agree to our ',
+
+  // PIN Verification Screen
+  'msg_enter_pin': 'Enter Your PIN',
+  'msg_pin_verification_subtitle': 'Enter your 4-digit PIN to continue',
+  'msg_incomplete_pin': 'Please enter a 4-digit PIN',
+  'msg_invalid_pin': 'Invalid PIN. Please try again',
+  'msg_verification_error': 'Verification failed. Please try again',
+  'lbl_verify_pin': 'Verify PIN',
+  'msg_pin_security_note': 'Keep your PIN confidential and secure',
+
   'msg_loading': 'Loading...',
   'msg_checking_updates': 'Checking for updates...',
   'msg_preparing_app': 'Preparing your app...',
