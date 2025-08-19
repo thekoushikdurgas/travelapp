@@ -1,6 +1,7 @@
 Analyzing travelapp...                                          
 
    info - The import of 'package:get/get.dart' is unnecessary because all of the used elements are also provided by the import of 'package:travelapp/core/app_export.dart' - lib\presentation\language\controller\language_controller.dart:3:8 - unnecessary_import
+warning - Unused import: 'package:travelapp/core/localization/language_utils.dart' - lib\presentation\language\controller\language_controller.dart:7:8 - unused_import
    info - The import of 'package:flutter/services.dart' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' - lib\presentation\language\language_screen.dart:2:8 - unnecessary_import
-   info - Missing a required trailing comma - lib\presentation\language\language_screen.dart:21:70 - require_trailing_commas
+warning - Unused import: 'package:travelapp/core/localization/language_utils.dart' - lib\presentation\language\language_screen.dart:10:8 - unused_import
 

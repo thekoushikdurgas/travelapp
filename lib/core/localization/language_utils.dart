@@ -41,8 +41,10 @@ class LanguageUtils {
   /// Check if a locale is supported by the app
   static bool isSupported(Locale locale) {
     return supportedLocales.contains(locale) ||
-        supportedLocales.any((supportedLocale) =>
-            supportedLocale.languageCode == locale.languageCode,);
+        supportedLocales.any(
+          (supportedLocale) =>
+              supportedLocale.languageCode == locale.languageCode,
+        );
   }
 
   /// Get display name for a locale

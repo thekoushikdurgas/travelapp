@@ -19,7 +19,8 @@ class LanguageScreen extends GetWidget<LanguageController> {
 
     DebugLogger.ui('LanguageScreen: Building UI with ThemeManager colors');
     DebugLogger.ui(
-        'LanguageScreen: Background: ${themeManager.backgroundColor}',);
+      'LanguageScreen: Background: ${themeManager.backgroundColor}',
+    );
 
     return SafeArea(
       child: Scaffold(
