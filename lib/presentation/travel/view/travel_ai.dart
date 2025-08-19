@@ -22,30 +22,7 @@ class TravelAiScreen extends GetWidget<TravelController> {
           () => CustomBottomNavigationBar(
             currentIndex: controller.currentIndex.value,
             onTap: (index) => controller.changeBottomNavIndex(index),
-            items: List.generate(
-              controller.navIcons.length,
-              (index) => BottomNavItem(
-                icon: controller.navIcons[index],
-                label: index == 0
-                    ? 'Home'
-                    : index == 1
-                        ? 'Calendar'
-                        : index == 2
-                            ? 'Travel'
-                            : index == 3
-                                ? 'Booking'
-                                : 'Profile',
-                route: index == 0
-                    ? AppRoutes.homeScreen
-                    : index == 1
-                        ? AppRoutes.scheduleScreen
-                        : index == 2
-                            ? AppRoutes.travelScreen
-                            : index == 3
-                                ? AppRoutes.bookingScreen
-                                : AppRoutes.profileScreen,
-              ),
-            ),
+            items: controller.getBottomNavItems(),
           ),
         ),
         body: Center(

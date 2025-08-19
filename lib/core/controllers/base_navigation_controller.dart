@@ -1,3 +1,6 @@
+import 'package:travelapp/core/icons/prbal_icons.dart';
+import 'package:travelapp/widgets/custom_bottom_navigation_bar.dart';
+
 import '/core/app_export.dart';
 import 'package:flutter/material.dart';
 
@@ -6,11 +9,11 @@ class BaseNavigationController extends GetxController {
   Rx<int> currentIndex = 0.obs;
 
   final List<IconData> navIcons = [
-    Icons.home_rounded,
-    Icons.calendar_today_rounded,
-    Icons.travel_explore,
-    Icons.bookmark_rounded,
-    Icons.person_rounded,
+    Prbal.home,
+    Prbal.calendarToday,
+    Prbal.travel,
+    Prbal.bookmark,
+    Prbal.person,
   ];
 
   /// Changes the current selected index and navigates to the appropriate screen
@@ -36,5 +39,33 @@ class BaseNavigationController extends GetxController {
         Get.toNamed(AppRoutes.profileScreen);
         break;
     }
+  }
+
+  /// Helper method to generate consistent BottomNavItems
+  List<BottomNavItem> getBottomNavItems() {
+    return List.generate(
+      navIcons.length,
+      (index) => BottomNavItem(
+        icon: navIcons[index],
+        label: index == 0
+            ? 'Home'
+            : index == 1
+                ? 'Calendar'
+                : index == 2
+                    ? 'Travel'
+                    : index == 3
+                        ? 'Booking'
+                        : 'Profile',
+        route: index == 0
+            ? AppRoutes.homeScreen
+            : index == 1
+                ? AppRoutes.scheduleScreen
+                : index == 2
+                    ? AppRoutes.travelScreen
+                    : index == 3
+                        ? AppRoutes.bookingScreen
+                        : AppRoutes.profileScreen,
+      ),
+    );
   }
 }

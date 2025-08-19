@@ -1,6 +1,6 @@
 import '/core/app_export.dart';
 import 'package:travelapp/presentation/profile_screen/models/profile_model.dart';
-import 'package:travelapp/core/controllers/base_navigation_controller.dart';
+// import 'package:travelapp/core/controllers/base_navigation_controller.dart';
 
 class ProfileController extends BaseNavigationController {
   Rx<ProfileModel> profileModelObj = ProfileModel().obs;

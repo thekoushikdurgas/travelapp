@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:travelapp/core/app_export.dart';
+import 'package:travelapp/core/icons/prbal_icons.dart';
 import 'package:travelapp/core/theme/theme_manager.dart';
 import 'package:lottie/lottie.dart';
 import 'package:travelapp/core/services/debug_logger.dart';
@@ -188,17 +189,17 @@ class WelcomeScreen extends GetWidget<WelcomeController> {
           children: [
             _buildFeatureHighlight(
               'msg_explore'.tr,
-              Icons.explore,
+              Prbal.explore,
               themeManager.successColor,
             ),
             _buildFeatureHighlight(
               'msg_safe'.tr,
-              Icons.verified_user,
+              Prbal.verifiedUser,
               themeManager.primaryColor,
             ),
             _buildFeatureHighlight(
               'msg_support'.tr,
-              Icons.headset_mic,
+              Prbal.headsetMic,
               themeManager.infoColor,
             ),
           ],
@@ -263,7 +264,7 @@ class WelcomeScreen extends GetWidget<WelcomeController> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Icon(
-                  Icons.arrow_forward,
+                  Prbal.chevronRight,
                   size: 18.sp,
                 ),
                 SizedBox(width: 10.w),

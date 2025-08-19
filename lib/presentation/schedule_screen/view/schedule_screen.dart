@@ -17,30 +17,7 @@ class ScheduleScreen extends GetWidget<ScheduleController> {
           () => CustomBottomNavigationBar(
             currentIndex: controller.currentIndex.value,
             onTap: (index) => controller.changeBottomNavIndex(index),
-            items: List.generate(
-              controller.navIcons.length,
-              (index) => BottomNavItem(
-                icon: controller.navIcons[index],
-                label: index == 0
-                    ? 'Home'
-                    : index == 1
-                        ? 'Calendar'
-                        : index == 2
-                            ? 'Search'
-                            : index == 3
-                                ? 'Messages'
-                                : 'Profile',
-                route: index == 0
-                    ? AppRoutes.homeScreen
-                    : index == 1
-                        ? AppRoutes.scheduleScreen
-                        : index == 2
-                            ? AppRoutes.searchScreen
-                            : index == 3
-                                ? AppRoutes.messagesScreen
-                                : AppRoutes.profileScreen,
-              ),
-            ),
+            items: controller.getBottomNavItems(),
           ),
         ),
         backgroundColor: ColorConstant.whiteA700,

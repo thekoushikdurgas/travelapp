@@ -1,6 +1,6 @@
 import '/core/app_export.dart';
 import 'package:travelapp/presentation/booking/models/booking_model.dart';
-import 'package:travelapp/core/controllers/base_navigation_controller.dart';
+// import 'package:travelapp/core/controllers/base_navigation_controller.dart';
 
 class BookingController extends BaseNavigationController {
   Rx<BookingModel> bookingModelObj = BookingModel().obs;

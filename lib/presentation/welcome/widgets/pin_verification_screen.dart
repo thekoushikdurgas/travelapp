@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:travelapp/core/app_export.dart';
+import 'package:travelapp/core/icons/prbal_icons.dart';
 import 'package:travelapp/core/theme/theme_manager.dart';
 import 'package:travelapp/core/services/debug_logger.dart';
 import 'package:travelapp/presentation/welcome/controller/pin_verification_controller.dart';
@@ -27,7 +28,7 @@ class PinVerificationScreen extends GetWidget<PinVerificationController> {
         elevation: 0,
         leading: IconButton(
           icon: Icon(
-            Icons.arrow_back_ios,
+            Prbal.chevronRight,
             color: themeManager.textPrimary,
           ),
           onPressed: () => Get.back(),
@@ -86,7 +87,7 @@ class PinVerificationScreen extends GetWidget<PinVerificationController> {
             shape: BoxShape.circle,
           ),
           child: Icon(
-            Icons.lock_outline,
+            Prbal.lockOutline,
             size: 40.sp,
             color: Colors.white,
           ),
@@ -134,7 +135,7 @@ class PinVerificationScreen extends GetWidget<PinVerificationController> {
             mainAxisSize: MainAxisSize.min,
             children: [
               Icon(
-                Icons.phone,
+                Prbal.phone,
                 size: 16.sp,
                 color: themeManager.primaryColor,
               ),
@@ -252,7 +253,7 @@ class PinVerificationScreen extends GetWidget<PinVerificationController> {
           mainAxisSize: MainAxisSize.min,
           children: [
             Icon(
-              Icons.error_outline,
+              Prbal.errorOutline,
               color: themeManager.errorColor,
               size: 20.sp,
             ),
@@ -312,7 +313,7 @@ class PinVerificationScreen extends GetWidget<PinVerificationController> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Icon(
-                      Icons.check_circle_outline,
+                      Prbal.checkCircleOutline,
                       color: Colors.white,
                       size: 20.sp,
                     ),
@@ -340,7 +341,7 @@ class PinVerificationScreen extends GetWidget<PinVerificationController> {
       child: Row(
         children: [
           Icon(
-            Icons.security,
+            Prbal.security,
             color: themeManager.primaryColor,
             size: 20.sp,
           ),

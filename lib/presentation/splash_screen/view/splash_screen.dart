@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:lottie/lottie.dart';
+import 'package:travelapp/core/icons/prbal_icons.dart';
 import 'package:travelapp/core/theme/theme_manager.dart';
 import '../controller/splash_controller.dart';
 import 'package:travelapp/core/app_export.dart';
@@ -90,7 +91,7 @@ class SplashScreen extends GetWidget<SplashController> {
           top: 100.h,
           right: 30.w,
           child: _buildFloatingIcon(
-            Icons.airplanemode_active,
+            Prbal.airplanemodeOn,
             theme.isDarkMode ? Colors.white24 : Colors.white38,
             20.sp,
           ),
@@ -99,7 +100,7 @@ class SplashScreen extends GetWidget<SplashController> {
           top: 200.h,
           left: 50.w,
           child: _buildFloatingIcon(
-            Icons.location_on,
+            Prbal.locationOn,
             theme.isDarkMode ? Colors.white12 : Colors.white30,
             16.sp,
           ),
@@ -108,7 +109,7 @@ class SplashScreen extends GetWidget<SplashController> {
           bottom: 300.h,
           right: 60.w,
           child: _buildFloatingIcon(
-            Icons.camera_alt,
+            Prbal.cameraAlt,
             theme.isDarkMode
                 ? Colors.white.withValues(alpha: 0.2)
                 : Colors.white.withValues(alpha: 0.35),
@@ -119,7 +120,7 @@ class SplashScreen extends GetWidget<SplashController> {
           bottom: 200.h,
           left: 40.w,
           child: _buildFloatingIcon(
-            Icons.explore,
+            Prbal.explore,
             theme.isDarkMode
                 ? Colors.white.withValues(alpha: 0.15)
                 : Colors.white.withValues(alpha: 0.25),
@@ -130,7 +131,7 @@ class SplashScreen extends GetWidget<SplashController> {
           top: 300.h,
           left: 20.w,
           child: _buildFloatingIcon(
-            Icons.hotel,
+            Prbal.hotel,
             theme.isDarkMode
                 ? Colors.white.withValues(alpha: 0.18)
                 : Colors.white.withValues(alpha: 0.32),
@@ -141,7 +142,7 @@ class SplashScreen extends GetWidget<SplashController> {
           bottom: 400.h,
           right: 20.w,
           child: _buildFloatingIcon(
-            Icons.map,
+            Prbal.map,
             theme.isDarkMode
                 ? Colors.white.withValues(alpha: 0.22)
                 : Colors.white.withValues(alpha: 0.40),
@@ -194,7 +195,7 @@ class SplashScreen extends GetWidget<SplashController> {
               mainAxisSize: MainAxisSize.min,
               children: [
                 Icon(
-                  theme.isDarkMode ? Icons.dark_mode : Icons.light_mode,
+                  theme.isDarkMode ? Prbal.moon : Prbal.sun,
                   size: 12.sp,
                   color: theme.isDarkMode ? Colors.white70 : Colors.white,
                 ),
@@ -267,7 +268,7 @@ class SplashScreen extends GetWidget<SplashController> {
                 return Transform.scale(
                   scale: 0.8 + (0.2 * value),
                   child: Icon(
-                    Icons.travel_explore,
+                    Prbal.travel,
                     size: 50.sp,
                     color: theme.isDarkMode ? Colors.white : Colors.white,
                   ),
@@ -491,7 +492,7 @@ class SplashScreen extends GetWidget<SplashController> {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     Icon(
-                      Icons.favorite,
+                      Prbal.favorite,
                       size: 10.sp,
                       color: theme.isDarkMode
                           ? Colors.white.withValues(alpha: 0.40)
@@ -511,7 +512,7 @@ class SplashScreen extends GetWidget<SplashController> {
                     ),
                     SizedBox(width: 4.w),
                     Icon(
-                      Icons.favorite,
+                      Prbal.favorite,
                       size: 10.sp,
                       color: theme.isDarkMode
                           ? Colors.white.withValues(alpha: 0.40)

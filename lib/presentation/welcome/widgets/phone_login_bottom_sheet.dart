@@ -4,6 +4,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 // import 'package:get/get.dart';
 import 'package:country_picker/country_picker.dart';
 import 'package:travelapp/core/app_export.dart';
+import 'package:travelapp/core/icons/prbal_icons.dart';
 import 'package:travelapp/core/theme/theme_manager.dart';
 import 'package:travelapp/core/services/debug_logger.dart';
 
@@ -438,7 +439,7 @@ class _PhoneLoginBottomSheetState extends State<PhoneLoginBottomSheet>
                                     ),
                                     SizedBox(width: 4.w),
                                     Icon(
-                                      Icons.keyboard_arrow_down,
+                                      Prbal.chevronRight,
                                       size: 16.sp,
                                       color: themeManager.textSecondary,
                                     ),
@@ -495,7 +496,7 @@ class _PhoneLoginBottomSheetState extends State<PhoneLoginBottomSheet>
                           mainAxisSize: MainAxisSize.min,
                           children: [
                             Icon(
-                              Icons.error_outline,
+                              Prbal.errorOutline,
                               size: 16.sp,
                               color: const Color(0xFFEF4444),
                             ),
@@ -554,7 +555,7 @@ class _PhoneLoginBottomSheetState extends State<PhoneLoginBottomSheet>
                                     ),
                                     SizedBox(width: 8.w),
                                     Icon(
-                                      Icons.chevron_right,
+                                      Prbal.chevronRight,
                                       size: 20.sp,
                                       color: Colors.white,
                                     ),
@@ -602,7 +603,7 @@ class _PhoneLoginBottomSheetState extends State<PhoneLoginBottomSheet>
                         children: [
                           _buildSocialButton(
                             'Google',
-                            Icons.g_mobiledata,
+                            Prbal.google,
                             Colors.red,
                             () => _handleSocialLogin('google'),
                             themeManager,
@@ -610,7 +611,7 @@ class _PhoneLoginBottomSheetState extends State<PhoneLoginBottomSheet>
                           SizedBox(width: 16.w),
                           _buildSocialButton(
                             'Apple',
-                            Icons.apple,
+                            Prbal.apple,
                             themeManager.isDarkMode
                                 ? Colors.white
                                 : Colors.black,
@@ -745,7 +746,7 @@ class _PhoneLoginBottomSheetState extends State<PhoneLoginBottomSheet>
             color: ThemeManager.of(context).textSecondary,
           ),
           prefixIcon: Icon(
-            Icons.search,
+            Prbal.search,
             color: ThemeManager.of(context).primaryColor,
           ),
           border: OutlineInputBorder(
