@@ -1122,19 +1122,19 @@ class ThemeManager {
     return color.withValues(alpha: alpha);
   }
 
-  /// Get color for user type (cached)
-  Color getUserTypeColor(UserRole userRole) {
-    return _getCached('userType_${userRole.name}', () {
-      switch (userRole) {
-        case UserRole.tailor:
-          return isDarkMode ? successColor : successLight;
-        case UserRole.customer:
-          return isDarkMode ? infoColor : infoLight;
-        case UserRole.admin:
-          return isDarkMode ? warningColor : warningLight;
-      }
-    });
-  }
+  // /// Get color for user type (cached)
+  // Color getUserTypeColor(UserRole userRole) {
+  //   return _getCached('userType_${userRole.name}', () {
+  //     switch (userRole) {
+  //       case UserRole.tailor:
+  //         return isDarkMode ? successColor : successLight;
+  //       case UserRole.customer:
+  //         return isDarkMode ? infoColor : infoLight;
+  //       case UserRole.admin:
+  //         return isDarkMode ? warningColor : warningLight;
+  //     }
+  //   });
+  // }
 
   // =================== PERFORMANCE UTILITIES ===================
 

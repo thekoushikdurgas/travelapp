@@ -1,11 +1,6 @@
 Analyzing travelapp...                                          
 
-  error - Undefined class 'UserRole' - lib\core\theme\theme_manager.dart:1126:26 - undefined_class
-  error - The body might complete normally, causing 'null' to be returned, but the return type, 'Color', is a potentially non-nullable type - lib\core\theme\theme_manager.dart:1127:55 - body_might_complete_normally
-  error - Case expressions must be constant - lib\core\theme\theme_manager.dart:1129:14 - non_constant_case_expression
-  error - Undefined name 'UserRole' - lib\core\theme\theme_manager.dart:1129:14 - undefined_identifier
-  error - Case expressions must be constant - lib\core\theme\theme_manager.dart:1131:14 - non_constant_case_expression
-  error - Undefined name 'UserRole' - lib\core\theme\theme_manager.dart:1131:14 - undefined_identifier
-  error - Case expressions must be constant - lib\core\theme\theme_manager.dart:1133:14 - non_constant_case_expression
-  error - Undefined name 'UserRole' - lib\core\theme\theme_manager.dart:1133:14 - undefined_identifier
+   info - The import of 'package:get/get.dart' is unnecessary because all of the used elements are also provided by the import of 'package:travelapp/core/app_export.dart' - lib\presentation\language\controller\language_controller.dart:3:8 - unnecessary_import
+   info - The import of 'package:flutter/services.dart' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' - lib\presentation\language\language_screen.dart:2:8 - unnecessary_import
+   info - Missing a required trailing comma - lib\presentation\language\language_screen.dart:21:70 - require_trailing_commas
 

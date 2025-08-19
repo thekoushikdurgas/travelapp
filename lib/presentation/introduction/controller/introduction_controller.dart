@@ -67,10 +67,10 @@ class IntroductionController extends GetxController {
     selectedOptions[currentPageIndex.value] = selection;
   }
 
-  // Complete the introduction and navigate to the next screen
+  // Complete the introduction and navigate to the language screen
   void completeIntroduction() {
     // Here you can process all selections if needed
-    // Then navigate to the next screen
-    Get.toNamed(AppRoutes.signInScreen);
+    // Then navigate to the language screen
+    Get.toNamed(AppRoutes.languageScreen);
   }
 }

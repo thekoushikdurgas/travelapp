@@ -2,6 +2,8 @@ import 'package:travelapp/presentation/splash_screen/splash_screen.dart';
 import 'package:travelapp/presentation/splash_screen/binding/splash_binding.dart';
 import 'package:travelapp/presentation/introduction/introduction.dart';
 import 'package:travelapp/presentation/introduction/binding/introduction_binding.dart';
+import 'package:travelapp/presentation/language/language_screen.dart';
+import 'package:travelapp/presentation/language/binding/language_binding.dart';
 import 'package:travelapp/presentation/sign_in_screen/sign_in_screen.dart';
 import 'package:travelapp/presentation/sign_in_screen/binding/sign_in_binding.dart';
 import 'package:travelapp/presentation/sign_up_screen/sign_up_screen.dart';
@@ -44,6 +46,8 @@ class AppRoutes {
   static String splashScreen = '/splash_screen';
 
   static String introductionScreen = '/introduction_screen';
+
+  static String languageScreen = '/language_screen';
 
   static String signInScreen = '/sign_in_screen';
 
@@ -97,6 +101,13 @@ class AppRoutes {
       page: () => const IntroductionScreen(),
       bindings: [
         IntroductionBinding(),
+      ],
+    ),
+    GetPage(
+      name: languageScreen,
+      page: () => const LanguageScreen(),
+      bindings: [
+        LanguageBinding(),
       ],
     ),
     GetPage(
