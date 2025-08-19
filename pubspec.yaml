@@ -1,0 +1,186 @@
+name: travelapp
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  get: ^4.6.5
+  connectivity_plus: ^6.1.5
+  shared_preferences: ^2.0.15
+  cached_network_image: ^3.2.1
+  flutter_svg: ^2.0.13
+  pin_code_fields: ^8.0.1
+  sms_autofill: ^2.0.0
+  intl: ^0.20.2
+  build_runner: ^2.7.0
+  lottie: ^3.3.1
+  flutter_screenutil: ^5.9.3
+  flutter_launcher_icons: ^0.14.4
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter_launcher_icons:
+  image_path: "assets/logo/logo.png"
+  android: "launcher_icon"
+  min_sdk_android: 21
+  ios: true
+  remove_alpha_channel_ios: true
+  web:
+    generate: true
+    image_path: "assets/logo/logo.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "assets/logo/logo.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "assets/logo/logo.png"
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo/
+    - assets/icon/
+    - assets/
+    - assets/images/
+    - assets/animations/
+    - assets/intro/
+
+  fonts:
+    - family: prbal
+      fonts:
+        - asset: assets/icon/prbal.ttf
+    - family: SourGummy
+      fonts:
+        - asset: assets/fonts/SourGummy-Black.ttf
+        - asset: assets/fonts/SourGummy-BlackItalic.ttf
+          style: italic
+        - asset: assets/fonts/SourGummy-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/SourGummy-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/SourGummy-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/SourGummy-ExtraBoldItalic.ttf
+          weight: 800
+          style: italic
+        - asset: assets/fonts/SourGummy-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/SourGummy-ExtraLightItalic.ttf
+          weight: 200
+          style: italic
+        - asset: assets/fonts/SourGummy-Italic.ttf
+          style: italic
+        - asset: assets/fonts/SourGummy-Light.ttf
+          weight: 300
+        - asset: assets/fonts/SourGummy-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/SourGummy-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/SourGummy-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/SourGummy-Regular.ttf
+        - asset: assets/fonts/SourGummy-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/SourGummy-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: assets/fonts/SourGummy-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/SourGummy-ThinItalic.ttf
+          weight: 100
+          style: italic
+        - asset: assets/fonts/SourGummy_Expanded-Black.ttf
+        - asset: assets/fonts/SourGummy_Expanded-BlackItalic.ttf
+          style: italic
+        - asset: assets/fonts/SourGummy_Expanded-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/SourGummy_Expanded-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/SourGummy_Expanded-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/SourGummy_Expanded-ExtraBoldItalic.ttf
+          weight: 800
+          style: italic
+        - asset: assets/fonts/SourGummy_Expanded-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/SourGummy_Expanded-ExtraLightItalic.ttf
+          weight: 200
+          style: italic
+        - asset: assets/fonts/SourGummy_Expanded-Italic.ttf
+          style: italic
+        - asset: assets/fonts/SourGummy_Expanded-Light.ttf
+          weight: 300
+        - asset: assets/fonts/SourGummy_Expanded-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/SourGummy_Expanded-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/SourGummy_Expanded-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/SourGummy_Expanded-Regular.ttf
+        - asset: assets/fonts/SourGummy_Expanded-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/SourGummy_Expanded-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: assets/fonts/SourGummy_Expanded-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/SourGummy_Expanded-ThinItalic.ttf
+          weight: 100
+          style: italic
+        - asset: assets/fonts/SourGummy_SemiExpanded-Black.ttf
+        - asset: assets/fonts/SourGummy_SemiExpanded-BlackItalic.ttf
+          style: italic
+        - asset: assets/fonts/SourGummy_SemiExpanded-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/SourGummy_SemiExpanded-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/SourGummy_SemiExpanded-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/SourGummy_SemiExpanded-ExtraBoldItalic.ttf
+          weight: 800
+          style: italic
+        - asset: assets/fonts/SourGummy_SemiExpanded-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/SourGummy_SemiExpanded-ExtraLightItalic.ttf
+          weight: 200
+          style: italic
+        - asset: assets/fonts/SourGummy_SemiExpanded-Italic.ttf
+          style: italic
+        - asset: assets/fonts/SourGummy_SemiExpanded-Light.ttf
+          weight: 300
+        - asset: assets/fonts/SourGummy_SemiExpanded-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/SourGummy_SemiExpanded-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/SourGummy_SemiExpanded-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/SourGummy_SemiExpanded-Regular.ttf
+        - asset: assets/fonts/SourGummy_SemiExpanded-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/SourGummy_SemiExpanded-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: assets/fonts/SourGummy_SemiExpanded-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/SourGummy_SemiExpanded-ThinItalic.ttf
+          weight: 100
+          style: italic
