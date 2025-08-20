@@ -54,6 +54,8 @@ def check_file_type(file_path):
         return True
     elif file_path.endswith(".plist"):
         return True
+    else:
+        return False
 
 
 def check_folder_type(folder_name):
