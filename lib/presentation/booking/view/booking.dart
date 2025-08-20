@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:travelapp/core/app_export.dart';
-import 'package:travelapp/widgets/app_bar/appbar_title.dart';
-import 'package:travelapp/widgets/app_bar/custom_app_bar.dart';
-import 'package:travelapp/widgets/custom_bottom_navigation_bar.dart';
+import 'package:travelapp/core/widgets/app_bar/appbar_title.dart';
+import 'package:travelapp/core/widgets/app_bar/custom_app_bar.dart';
 import '../controller/booking_controller.dart';
 
 class BookingScreen extends GetWidget<BookingController> {
@@ -20,9 +19,8 @@ class BookingScreen extends GetWidget<BookingController> {
         ),
         bottomNavigationBar: Obx(
           () => CustomBottomNavigationBar(
-            currentIndex: controller.currentIndex.value,
-            onTap: (index) => controller.changeBottomNavIndex(index),
-            items: controller.getBottomNavItems(),
+            currentIndex: 3,
+            context: context,
           ),
         ),
         body: Center(

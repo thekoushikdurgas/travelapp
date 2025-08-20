@@ -43,9 +43,9 @@ import 'package:travelapp/presentation/edit_profile_screen/bindings/edit_profile
 import 'package:travelapp/presentation/notification_screen/view/notification_screen.dart';
 import 'package:travelapp/presentation/notification_screen/bindings/notification_binding.dart';
 import 'package:travelapp/presentation/travel/view/travel_ai.dart';
-import 'package:travelapp/presentation/travel/binding/travel_binding.dart';
+import 'package:travelapp/presentation/travel/bindings/travel_binding.dart';
 import 'package:travelapp/presentation/booking/view/booking.dart';
-import 'package:travelapp/presentation/booking/binding/booking_binding.dart';
+import 'package:travelapp/presentation/booking/bindings/booking_binding.dart';
 import 'package:travelapp/presentation/app_navigation_screen/view/app_navigation_screen.dart';
 import 'package:travelapp/presentation/app_navigation_screen/bindings/app_navigation_binding.dart';
 import 'package:get/get.dart';

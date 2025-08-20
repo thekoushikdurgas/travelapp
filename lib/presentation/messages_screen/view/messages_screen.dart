@@ -3,11 +3,11 @@ import '../controller/messages_controller.dart';
 import '../models/messages_item_model.dart';
 import 'package:flutter/material.dart';
 import 'package:travelapp/core/app_export.dart';
-import 'package:travelapp/widgets/app_bar/appbar_iconbutton.dart';
-import 'package:travelapp/widgets/app_bar/appbar_title.dart';
-import 'package:travelapp/widgets/app_bar/custom_app_bar.dart';
-import 'package:travelapp/widgets/custom_icon_button.dart';
-import 'package:travelapp/widgets/custom_search_view.dart';
+import 'package:travelapp/core/widgets/app_bar/appbar_iconbutton.dart';
+import 'package:travelapp/core/widgets/app_bar/appbar_title.dart';
+import 'package:travelapp/core/widgets/app_bar/custom_app_bar.dart';
+import 'package:travelapp/core/widgets/custom_icon_button.dart';
+import 'package:travelapp/core/widgets/custom_search_view.dart';
 
 class MessagesScreen extends GetWidget<MessagesController> {
   const MessagesScreen({Key? key}) : super(key: key);

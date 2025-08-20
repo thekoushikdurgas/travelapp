@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:travelapp/core/app_export.dart';
-import 'package:travelapp/widgets/app_bar/appbar_iconbutton.dart';
-import 'package:travelapp/widgets/app_bar/custom_app_bar.dart';
-import 'package:travelapp/widgets/custom_bottom_navigation_bar.dart';
+import 'package:travelapp/core/widgets/app_bar/appbar_iconbutton.dart';
+import 'package:travelapp/core/widgets/app_bar/custom_app_bar.dart';
 
 import '../widgets/home_item_widget.dart';
 import '../controller/home_controller.dart';
@@ -17,9 +16,8 @@ class HomeScreen extends GetWidget<HomeController> {
       child: Scaffold(
         bottomNavigationBar: Obx(
           () => CustomBottomNavigationBar(
-            currentIndex: controller.currentIndex.value,
-            onTap: (index) => controller.changeBottomNavIndex(index),
-            items: controller.getBottomNavItems(),
+            currentIndex: 0,
+            context: context,
           ),
         ),
         backgroundColor: ColorConstant.whiteA700,

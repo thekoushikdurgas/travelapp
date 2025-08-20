@@ -1,0 +1,1486 @@
+{
+ "folder_path": "D:/durgas/travel_tour/travelapp",
+ "list": [
+  "D:/durgas/travel_tour/travelapp\\analysis_options.yaml",
+  {
+   "folder_path": "D:/durgas/travel_tour/travelapp\\android",
+   "list": [
+    {
+     "folder_path": "D:/durgas/travel_tour/travelapp\\android\\app",
+     "list": [
+      "D:/durgas/travel_tour/travelapp\\android\\app\\build.gradle.kts",
+      {
+       "folder_path": "D:/durgas/travel_tour/travelapp\\android\\app\\src",
+       "list": [
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\android\\app\\src\\debug",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\android\\app\\src\\debug\\AndroidManifest.xml"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\android\\app\\src\\main",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\android\\app\\src\\main\\AndroidManifest.xml",
+          {
+           "folder_path": "D:/durgas/travel_tour/travelapp\\android\\app\\src\\main\\java",
+           "list": [
+            {
+             "folder_path": "D:/durgas/travel_tour/travelapp\\android\\app\\src\\main\\java\\io",
+             "list": [
+              {
+               "folder_path": "D:/durgas/travel_tour/travelapp\\android\\app\\src\\main\\java\\io\\flutter",
+               "list": [
+                "D:/durgas/travel_tour/travelapp\\android\\app\\src\\main\\java\\io\\flutter\\plugins"
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "folder_path": "D:/durgas/travel_tour/travelapp\\android\\app\\src\\main\\kotlin",
+           "list": [
+            {
+             "folder_path": "D:/durgas/travel_tour/travelapp\\android\\app\\src\\main\\kotlin\\com",
+             "list": [
+              {
+               "folder_path": "D:/durgas/travel_tour/travelapp\\android\\app\\src\\main\\kotlin\\com\\durgas",
+               "list": [
+                {
+                 "folder_path": "D:/durgas/travel_tour/travelapp\\android\\app\\src\\main\\kotlin\\com\\durgas\\travelapp",
+                 "list": [
+                  "D:/durgas/travel_tour/travelapp\\android\\app\\src\\main\\kotlin\\com\\durgas\\travelapp\\MainActivity.kt"
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "folder_path": "D:/durgas/travel_tour/travelapp\\android\\app\\src\\main\\res",
+           "list": [
+            {
+             "folder_path": "D:/durgas/travel_tour/travelapp\\android\\app\\src\\main\\res\\drawable",
+             "list": [
+              "D:/durgas/travel_tour/travelapp\\android\\app\\src\\main\\res\\drawable\\launch_background.xml"
+             ]
+            },
+            {
+             "folder_path": "D:/durgas/travel_tour/travelapp\\android\\app\\src\\main\\res\\drawable-v21",
+             "list": [
+              "D:/durgas/travel_tour/travelapp\\android\\app\\src\\main\\res\\drawable-v21\\launch_background.xml"
+             ]
+            },
+            {
+             "folder_path": "D:/durgas/travel_tour/travelapp\\android\\app\\src\\main\\res\\mipmap-hdpi",
+             "list": [
+              "D:/durgas/travel_tour/travelapp\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png",
+              "D:/durgas/travel_tour/travelapp\\android\\app\\src\\main\\res\\mipmap-hdpi\\launcher_icon.png"
+             ]
+            },
+            {
+             "folder_path": "D:/durgas/travel_tour/travelapp\\android\\app\\src\\main\\res\\mipmap-mdpi",
+             "list": [
+              "D:/durgas/travel_tour/travelapp\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png",
+              "D:/durgas/travel_tour/travelapp\\android\\app\\src\\main\\res\\mipmap-mdpi\\launcher_icon.png"
+             ]
+            },
+            {
+             "folder_path": "D:/durgas/travel_tour/travelapp\\android\\app\\src\\main\\res\\mipmap-xhdpi",
+             "list": [
+              "D:/durgas/travel_tour/travelapp\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png",
+              "D:/durgas/travel_tour/travelapp\\android\\app\\src\\main\\res\\mipmap-xhdpi\\launcher_icon.png"
+             ]
+            },
+            {
+             "folder_path": "D:/durgas/travel_tour/travelapp\\android\\app\\src\\main\\res\\mipmap-xxhdpi",
+             "list": [
+              "D:/durgas/travel_tour/travelapp\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png",
+              "D:/durgas/travel_tour/travelapp\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\launcher_icon.png"
+             ]
+            },
+            {
+             "folder_path": "D:/durgas/travel_tour/travelapp\\android\\app\\src\\main\\res\\mipmap-xxxhdpi",
+             "list": [
+              "D:/durgas/travel_tour/travelapp\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png",
+              "D:/durgas/travel_tour/travelapp\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\launcher_icon.png"
+             ]
+            },
+            {
+             "folder_path": "D:/durgas/travel_tour/travelapp\\android\\app\\src\\main\\res\\values",
+             "list": [
+              "D:/durgas/travel_tour/travelapp\\android\\app\\src\\main\\res\\values\\strings.xml",
+              "D:/durgas/travel_tour/travelapp\\android\\app\\src\\main\\res\\values\\styles.xml"
+             ]
+            },
+            {
+             "folder_path": "D:/durgas/travel_tour/travelapp\\android\\app\\src\\main\\res\\values-night",
+             "list": [
+              "D:/durgas/travel_tour/travelapp\\android\\app\\src\\main\\res\\values-night\\styles.xml"
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\android\\app\\src\\profile",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\android\\app\\src\\profile\\AndroidManifest.xml"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    "D:/durgas/travel_tour/travelapp\\android\\build.gradle.kts",
+    {
+     "folder_path": "D:/durgas/travel_tour/travelapp\\android\\gradle",
+     "list": [
+      {
+       "folder_path": "D:/durgas/travel_tour/travelapp\\android\\gradle\\wrapper",
+       "list": [
+        "D:/durgas/travel_tour/travelapp\\android\\gradle\\wrapper\\gradle-wrapper.properties"
+       ]
+      }
+     ]
+    },
+    "D:/durgas/travel_tour/travelapp\\android\\gradle.properties",
+    "D:/durgas/travel_tour/travelapp\\android\\local.properties",
+    "D:/durgas/travel_tour/travelapp\\android\\settings.gradle.kts"
+   ]
+  },
+  {
+   "folder_path": "D:/durgas/travel_tour/travelapp\\assets",
+   "list": [
+    {
+     "folder_path": "D:/durgas/travel_tour/travelapp\\assets\\animations",
+     "list": [
+      "D:/durgas/travel_tour/travelapp\\assets\\animations\\loading.json",
+      "D:/durgas/travel_tour/travelapp\\assets\\animations\\services.json",
+      "D:/durgas/travel_tour/travelapp\\assets\\animations\\welcome.json"
+     ]
+    },
+    {
+     "folder_path": "D:/durgas/travel_tour/travelapp\\assets\\fonts",
+     "list": [
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy-Black.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy-BlackItalic.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy-Bold.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy-BoldItalic.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy-ExtraBold.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy-ExtraBoldItalic.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy-ExtraLight.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy-ExtraLightItalic.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy-Italic.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy-Light.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy-LightItalic.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy-Medium.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy-MediumItalic.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy-Regular.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy-SemiBold.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy-SemiBoldItalic.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy-Thin.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy-ThinItalic.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy_Expanded-Black.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy_Expanded-BlackItalic.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy_Expanded-Bold.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy_Expanded-BoldItalic.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy_Expanded-ExtraBold.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy_Expanded-ExtraBoldItalic.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy_Expanded-ExtraLight.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy_Expanded-ExtraLightItalic.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy_Expanded-Italic.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy_Expanded-Light.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy_Expanded-LightItalic.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy_Expanded-Medium.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy_Expanded-MediumItalic.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy_Expanded-Regular.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy_Expanded-SemiBold.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy_Expanded-SemiBoldItalic.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy_Expanded-Thin.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy_Expanded-ThinItalic.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy_SemiExpanded-Black.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy_SemiExpanded-BlackItalic.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy_SemiExpanded-Bold.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy_SemiExpanded-BoldItalic.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy_SemiExpanded-ExtraBold.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy_SemiExpanded-ExtraBoldItalic.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy_SemiExpanded-ExtraLight.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy_SemiExpanded-ExtraLightItalic.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy_SemiExpanded-Italic.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy_SemiExpanded-Light.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy_SemiExpanded-LightItalic.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy_SemiExpanded-Medium.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy_SemiExpanded-MediumItalic.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy_SemiExpanded-Regular.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy_SemiExpanded-SemiBold.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy_SemiExpanded-SemiBoldItalic.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy_SemiExpanded-Thin.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\fonts\\SourGummy_SemiExpanded-ThinItalic.ttf"
+     ]
+    },
+    {
+     "folder_path": "D:/durgas/travel_tour/travelapp\\assets\\icon",
+     "list": [
+      "D:/durgas/travel_tour/travelapp\\assets\\icon\\icon.png",
+      "D:/durgas/travel_tour/travelapp\\assets\\icon\\prbal.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\icon\\prbal.ttf",
+      "D:/durgas/travel_tour/travelapp\\assets\\icon\\selection.json"
+     ]
+    },
+    {
+     "folder_path": "D:/durgas/travel_tour/travelapp\\assets\\images",
+     "list": [
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\image_not_found.png",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_252a6624a42c117.png",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_32badb63498577.png",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_7f47f9144194941.png",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_afbea499038243.png",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_arrowleft.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_arrowleft_44x44.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_arrowright.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_arrowup.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_bookmark.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_bookmark_44x44.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_bookmark_white_a700.png",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_calendar.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_calendar_24x24.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_call.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_checkmark.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_checkmark_1.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_checkmark_14x14.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_checkmark_7x10.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_checkmark_9x12.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_checkmark_9x16.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_clock.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_cut.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_edit.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_edit_24x24.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_ellipse21.png",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_ellipse21_24x24.png",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_ellipse23.png",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_ellipse23_24x24.png",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_ellipse25.png",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_ellipse25_24x24.png",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_ellipse897.png",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_ellipse897_1.png",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_ellipse897_2.png",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_ellipse897_3.png",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_ellipse897_4.png",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_ellipse897_48x48.png",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_ellipse897_5.png",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_ellipse899.png",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_ellipse901.png",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_ellipse901_55x55.png",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_ellipse903.png",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_eye.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_eyeicon.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_favorite.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_file.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_file_1.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_file_96x96.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_group335.png",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_group67.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_home.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_lightbulb.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_link.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_location.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_location_24x24.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_maximize.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_microphone.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_overflowmenu.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_rectangle14.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_rectangle15.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_rectangle27.png",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_rectangle29.png",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_rectangle29_1.png",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_rectangle29_80x80.png",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_rectangle34.png",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_rectangle818.png",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_rectangle821.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_rectangle822.png",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_rectangle823.png",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_rectangle824.png",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_rectangle825.png",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_rectangle826.png",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_rectangle830.png",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_rectangle831.png",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_rectangle833.png",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_rectangle838.png",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_rectangle838_1.png",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_rectangle838_124x137.png",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_rectangle838_2.png",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_rectangle838_3.png",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_rectangle839.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_rectangle839_124x137.png",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_rectangle843.png",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_rectangle843_1.png",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_rectangle843_116x95.png",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_rectangle843_2.png",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_rectangle845.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_reply.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_search.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_search_bluegray_400.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_settings.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_signal.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_signal_24x40.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_star.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_star_yellow_600.png",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_ticket.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_trash.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_user.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_user_1.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_user_2.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_user_24x24.svg",
+      "D:/durgas/travel_tour/travelapp\\assets\\images\\img_vector2524.svg"
+     ]
+    },
+    {
+     "folder_path": "D:/durgas/travel_tour/travelapp\\assets\\intro",
+     "list": [
+      "D:/durgas/travel_tour/travelapp\\assets\\intro\\budget.json",
+      "D:/durgas/travel_tour/travelapp\\assets\\intro\\destination.json",
+      "D:/durgas/travel_tour/travelapp\\assets\\intro\\partrar.json",
+      "D:/durgas/travel_tour/travelapp\\assets\\intro\\priorities.json",
+      "D:/durgas/travel_tour/travelapp\\assets\\intro\\safety.json",
+      "D:/durgas/travel_tour/travelapp\\assets\\intro\\time.json",
+      "D:/durgas/travel_tour/travelapp\\assets\\intro\\Travel.json"
+     ]
+    },
+    {
+     "folder_path": "D:/durgas/travel_tour/travelapp\\assets\\logo",
+     "list": [
+      "D:/durgas/travel_tour/travelapp\\assets\\logo\\logo.png",
+      "D:/durgas/travel_tour/travelapp\\assets\\logo\\logo_dark.png",
+      "D:/durgas/travel_tour/travelapp\\assets\\logo\\user.png"
+     ]
+    }
+   ]
+  },
+  "D:/durgas/travel_tour/travelapp\\devtools_options.yaml",
+  {
+   "folder_path": "D:/durgas/travel_tour/travelapp\\docs",
+   "list": [
+    "D:/durgas/travel_tour/travelapp\\docs\\views.json"
+   ]
+  },
+  {
+   "folder_path": "D:/durgas/travel_tour/travelapp\\lib",
+   "list": [
+    {
+     "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\core",
+     "list": [
+      {
+       "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\core\\apiClient",
+       "list": [
+        "D:/durgas/travel_tour/travelapp\\lib\\core\\apiClient\\api_client.dart"
+       ]
+      },
+      "D:/durgas/travel_tour/travelapp\\lib\\core\\app_export.dart",
+      {
+       "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\core\\constants",
+       "list": [
+        "D:/durgas/travel_tour/travelapp\\lib\\core\\constants\\constants.dart"
+       ]
+      },
+      "D:/durgas/travel_tour/travelapp\\lib\\core\\controllers",
+      {
+       "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\core\\errors",
+       "list": [
+        "D:/durgas/travel_tour/travelapp\\lib\\core\\errors\\exceptions.dart",
+        "D:/durgas/travel_tour/travelapp\\lib\\core\\errors\\failures.dart"
+       ]
+      },
+      {
+       "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\core\\icons",
+       "list": [
+        "D:/durgas/travel_tour/travelapp\\lib\\core\\icons\\icon_constants.dart",
+        "D:/durgas/travel_tour/travelapp\\lib\\core\\icons\\prbal_icons.dart"
+       ]
+      },
+      {
+       "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\core\\localization",
+       "list": [
+        "D:/durgas/travel_tour/travelapp\\lib\\core\\localization\\app_localization.dart",
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\core\\localization\\as_in",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\core\\localization\\as_in\\as_in_translations.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\core\\localization\\bn_in",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\core\\localization\\bn_in\\bn_in_translations.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\core\\localization\\brx_in",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\core\\localization\\brx_in\\brx_in_translations.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\core\\localization\\doi_in",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\core\\localization\\doi_in\\doi_in_translations.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\core\\localization\\en_us",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\core\\localization\\en_us\\en_us_translations.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\core\\localization\\gu_in",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\core\\localization\\gu_in\\gu_in_translations.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\core\\localization\\hi_in",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\core\\localization\\hi_in\\hi_in_translations.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\core\\localization\\kn_in",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\core\\localization\\kn_in\\kn_in_translations.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\core\\localization\\kok_in",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\core\\localization\\kok_in\\kok_in_translations.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\core\\localization\\ks_in",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\core\\localization\\ks_in\\ks_in_translations.dart"
+         ]
+        },
+        "D:/durgas/travel_tour/travelapp\\lib\\core\\localization\\language_utils.dart",
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\core\\localization\\mai_in",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\core\\localization\\mai_in\\mai_in_translations.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\core\\localization\\ml_in",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\core\\localization\\ml_in\\ml_in_translations.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\core\\localization\\mni_in",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\core\\localization\\mni_in\\mni_in_translations.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\core\\localization\\mr_in",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\core\\localization\\mr_in\\mr_in_translations.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\core\\localization\\ne_in",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\core\\localization\\ne_in\\ne_in_translations.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\core\\localization\\or_in",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\core\\localization\\or_in\\or_in_translations.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\core\\localization\\pa_in",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\core\\localization\\pa_in\\pa_in_translations.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\core\\localization\\sat_in",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\core\\localization\\sat_in\\sat_in_translations.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\core\\localization\\sa_in",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\core\\localization\\sa_in\\sa_in_translations.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\core\\localization\\sd_in",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\core\\localization\\sd_in\\sd_in_translations.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\core\\localization\\ta_in",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\core\\localization\\ta_in\\ta_in_translations.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\core\\localization\\te_in",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\core\\localization\\te_in\\te_in_translations.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\core\\localization\\ur_in",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\core\\localization\\ur_in\\ur_in_translations.dart"
+         ]
+        }
+       ]
+      },
+      {
+       "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\core\\models",
+       "list": [
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\core\\models\\selectionPopupModel",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\core\\models\\selectionPopupModel\\selection_popup_model.dart"
+         ]
+        }
+       ]
+      },
+      {
+       "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\core\\network",
+       "list": [
+        "D:/durgas/travel_tour/travelapp\\lib\\core\\network\\network_info.dart"
+       ]
+      },
+      {
+       "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\core\\routes",
+       "list": [
+        "D:/durgas/travel_tour/travelapp\\lib\\core\\routes\\app_routes.dart"
+       ]
+      },
+      {
+       "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\core\\services",
+       "list": [
+        "D:/durgas/travel_tour/travelapp\\lib\\core\\services\\debug_logger.dart"
+       ]
+      },
+      {
+       "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\core\\theme",
+       "list": [
+        "D:/durgas/travel_tour/travelapp\\lib\\core\\theme\\app_decoration.dart",
+        "D:/durgas/travel_tour/travelapp\\lib\\core\\theme\\app_style.dart",
+        "D:/durgas/travel_tour/travelapp\\lib\\core\\theme\\theme_manager.dart"
+       ]
+      },
+      {
+       "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\core\\utils",
+       "list": [
+        "D:/durgas/travel_tour/travelapp\\lib\\core\\utils\\color_constant.dart",
+        "D:/durgas/travel_tour/travelapp\\lib\\core\\utils\\date_time_utils.dart",
+        "D:/durgas/travel_tour/travelapp\\lib\\core\\utils\\image_constant.dart",
+        "D:/durgas/travel_tour/travelapp\\lib\\core\\utils\\initial_bindings.dart",
+        "D:/durgas/travel_tour/travelapp\\lib\\core\\utils\\logger.dart",
+        "D:/durgas/travel_tour/travelapp\\lib\\core\\utils\\pref_utils.dart",
+        "D:/durgas/travel_tour/travelapp\\lib\\core\\utils\\progress_dialog_utils.dart",
+        "D:/durgas/travel_tour/travelapp\\lib\\core\\utils\\size_utils.dart",
+        "D:/durgas/travel_tour/travelapp\\lib\\core\\utils\\validation_functions.dart"
+       ]
+      },
+      {
+       "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\core\\widgets",
+       "list": [
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\core\\widgets\\app_bar",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\core\\widgets\\app_bar\\appbar_iconbutton.dart",
+          "D:/durgas/travel_tour/travelapp\\lib\\core\\widgets\\app_bar\\appbar_iconbutton_1.dart",
+          "D:/durgas/travel_tour/travelapp\\lib\\core\\widgets\\app_bar\\appbar_subtitle.dart",
+          "D:/durgas/travel_tour/travelapp\\lib\\core\\widgets\\app_bar\\appbar_subtitle_1.dart",
+          "D:/durgas/travel_tour/travelapp\\lib\\core\\widgets\\app_bar\\appbar_title.dart",
+          "D:/durgas/travel_tour/travelapp\\lib\\core\\widgets\\app_bar\\custom_app_bar.dart"
+         ]
+        },
+        "D:/durgas/travel_tour/travelapp\\lib\\core\\widgets\\common_image_view.dart",
+        "D:/durgas/travel_tour/travelapp\\lib\\core\\widgets\\custom_bottom_navigation_bar.dart",
+        "D:/durgas/travel_tour/travelapp\\lib\\core\\widgets\\custom_button.dart",
+        "D:/durgas/travel_tour/travelapp\\lib\\core\\widgets\\custom_floating_button.dart",
+        "D:/durgas/travel_tour/travelapp\\lib\\core\\widgets\\custom_icon_button.dart",
+        "D:/durgas/travel_tour/travelapp\\lib\\core\\widgets\\custom_radio_button.dart",
+        "D:/durgas/travel_tour/travelapp\\lib\\core\\widgets\\custom_search_view.dart",
+        "D:/durgas/travel_tour/travelapp\\lib\\core\\widgets\\custom_text_form_field.dart"
+       ]
+      }
+     ]
+    },
+    "D:/durgas/travel_tour/travelapp\\lib\\main.dart",
+    {
+     "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation",
+     "list": [
+      {
+       "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\all_popular_trip_package_screen",
+       "list": [
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\all_popular_trip_package_screen\\bindings",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\all_popular_trip_package_screen\\bindings\\all_popular_trip_package_binding.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\all_popular_trip_package_screen\\controller",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\all_popular_trip_package_screen\\controller\\all_popular_trip_package_controller.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\all_popular_trip_package_screen\\models",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\all_popular_trip_package_screen\\models\\all_popular_trip_package_model.dart",
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\all_popular_trip_package_screen\\models\\listrectangle843_item_model.dart"
+         ]
+        },
+        "D:/durgas/travel_tour/travelapp\\lib\\presentation\\all_popular_trip_package_screen\\utils",
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\all_popular_trip_package_screen\\view",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\all_popular_trip_package_screen\\view\\all_popular_trip_package_screen.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\all_popular_trip_package_screen\\widgets",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\all_popular_trip_package_screen\\widgets\\listrectangle843_item_widget.dart"
+         ]
+        }
+       ]
+      },
+      {
+       "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\app_navigation_screen",
+       "list": [
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\app_navigation_screen\\bindings",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\app_navigation_screen\\bindings\\app_navigation_binding.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\app_navigation_screen\\controller",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\app_navigation_screen\\controller\\app_navigation_controller.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\app_navigation_screen\\models",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\app_navigation_screen\\models\\app_navigation_model.dart"
+         ]
+        },
+        "D:/durgas/travel_tour/travelapp\\lib\\presentation\\app_navigation_screen\\utils",
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\app_navigation_screen\\view",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\app_navigation_screen\\view\\app_navigation_screen.dart"
+         ]
+        },
+        "D:/durgas/travel_tour/travelapp\\lib\\presentation\\app_navigation_screen\\widgets"
+       ]
+      },
+      {
+       "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\booking",
+       "list": [
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\booking\\bindings",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\booking\\bindings\\booking_binding.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\booking\\controller",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\booking\\controller\\booking_controller.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\booking\\models",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\booking\\models\\booking_model.dart"
+         ]
+        },
+        "D:/durgas/travel_tour/travelapp\\lib\\presentation\\booking\\utils",
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\booking\\view",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\booking\\view\\booking.dart"
+         ]
+        },
+        "D:/durgas/travel_tour/travelapp\\lib\\presentation\\booking\\widgets"
+       ]
+      },
+      {
+       "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\chats_screen",
+       "list": [
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\chats_screen\\bindings",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\chats_screen\\bindings\\chats_binding.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\chats_screen\\controller",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\chats_screen\\controller\\chats_controller.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\chats_screen\\models",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\chats_screen\\models\\chats_model.dart"
+         ]
+        },
+        "D:/durgas/travel_tour/travelapp\\lib\\presentation\\chats_screen\\utils",
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\chats_screen\\view",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\chats_screen\\view\\chats_screen.dart"
+         ]
+        },
+        "D:/durgas/travel_tour/travelapp\\lib\\presentation\\chats_screen\\widgets"
+       ]
+      },
+      {
+       "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\details_screen",
+       "list": [
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\details_screen\\bindings",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\details_screen\\bindings\\details_binding.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\details_screen\\controller",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\details_screen\\controller\\details_controller.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\details_screen\\models",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\details_screen\\models\\details_model.dart"
+         ]
+        },
+        "D:/durgas/travel_tour/travelapp\\lib\\presentation\\details_screen\\utils",
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\details_screen\\view",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\details_screen\\view\\details_screen.dart"
+         ]
+        },
+        "D:/durgas/travel_tour/travelapp\\lib\\presentation\\details_screen\\widgets"
+       ]
+      },
+      {
+       "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\edit_profile_screen",
+       "list": [
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\edit_profile_screen\\bindings",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\edit_profile_screen\\bindings\\edit_profile_binding.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\edit_profile_screen\\controller",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\edit_profile_screen\\controller\\edit_profile_controller.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\edit_profile_screen\\models",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\edit_profile_screen\\models\\edit_profile_model.dart"
+         ]
+        },
+        "D:/durgas/travel_tour/travelapp\\lib\\presentation\\edit_profile_screen\\utils",
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\edit_profile_screen\\view",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\edit_profile_screen\\view\\edit_profile_screen.dart"
+         ]
+        },
+        "D:/durgas/travel_tour/travelapp\\lib\\presentation\\edit_profile_screen\\widgets"
+       ]
+      },
+      {
+       "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\favorite_places_screen",
+       "list": [
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\favorite_places_screen\\bindings",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\favorite_places_screen\\bindings\\favorite_places_binding.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\favorite_places_screen\\controller",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\favorite_places_screen\\controller\\favorite_places_controller.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\favorite_places_screen\\models",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\favorite_places_screen\\models\\favorite_places_model.dart",
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\favorite_places_screen\\models\\gridrectangle838_item_model.dart"
+         ]
+        },
+        "D:/durgas/travel_tour/travelapp\\lib\\presentation\\favorite_places_screen\\utils",
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\favorite_places_screen\\view",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\favorite_places_screen\\view\\favorite_places_screen.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\favorite_places_screen\\widgets",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\favorite_places_screen\\widgets\\gridrectangle838_item_widget.dart"
+         ]
+        }
+       ]
+      },
+      {
+       "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\forgot_password_screen",
+       "list": [
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\forgot_password_screen\\bindings",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\forgot_password_screen\\bindings\\forgot_password_binding.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\forgot_password_screen\\controller",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\forgot_password_screen\\controller\\forgot_password_controller.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\forgot_password_screen\\models",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\forgot_password_screen\\models\\forgot_password_model.dart"
+         ]
+        },
+        "D:/durgas/travel_tour/travelapp\\lib\\presentation\\forgot_password_screen\\utils",
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\forgot_password_screen\\view",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\forgot_password_screen\\view\\forgot_password_screen.dart"
+         ]
+        },
+        "D:/durgas/travel_tour/travelapp\\lib\\presentation\\forgot_password_screen\\widgets"
+       ]
+      },
+      {
+       "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\home_screen",
+       "list": [
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\home_screen\\bindings",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\home_screen\\bindings\\home_binding.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\home_screen\\controller",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\home_screen\\controller\\home_controller.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\home_screen\\models",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\home_screen\\models\\home_item_model.dart",
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\home_screen\\models\\home_model.dart"
+         ]
+        },
+        "D:/durgas/travel_tour/travelapp\\lib\\presentation\\home_screen\\utils",
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\home_screen\\view",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\home_screen\\view\\home_screen.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\home_screen\\widgets",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\home_screen\\widgets\\home_item_widget.dart"
+         ]
+        }
+       ]
+      },
+      {
+       "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\introduction",
+       "list": [
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\introduction\\bindings",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\introduction\\bindings\\introduction_binding.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\introduction\\controller",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\introduction\\controller\\introduction_controller.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\introduction\\models",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\introduction\\models\\introduction_model.dart"
+         ]
+        },
+        "D:/durgas/travel_tour/travelapp\\lib\\presentation\\introduction\\utils",
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\introduction\\view",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\introduction\\view\\introduction.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\introduction\\widgets",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\introduction\\widgets\\index.dart",
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\introduction\\widgets\\introduction_bottom_nav.dart",
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\introduction\\widgets\\introduction_step_content.dart",
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\introduction\\widgets\\introduction_step_factory.dart",
+          {
+           "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\introduction\\widgets\\steps",
+           "list": [
+            "D:/durgas/travel_tour/travelapp\\lib\\presentation\\introduction\\widgets\\steps\\budget_selection_widget.dart",
+            "D:/durgas/travel_tour/travelapp\\lib\\presentation\\introduction\\widgets\\steps\\destination_selection_widget.dart",
+            "D:/durgas/travel_tour/travelapp\\lib\\presentation\\introduction\\widgets\\steps\\partner_selection_widget.dart",
+            "D:/durgas/travel_tour/travelapp\\lib\\presentation\\introduction\\widgets\\steps\\priorities_widget.dart",
+            "D:/durgas/travel_tour/travelapp\\lib\\presentation\\introduction\\widgets\\steps\\safety_considerations_widget.dart",
+            "D:/durgas/travel_tour/travelapp\\lib\\presentation\\introduction\\widgets\\steps\\travel_plan_widget.dart",
+            "D:/durgas/travel_tour/travelapp\\lib\\presentation\\introduction\\widgets\\steps\\travel_time_widget.dart"
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\language",
+       "list": [
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\language\\binding",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\language\\binding\\language_binding.dart"
+         ]
+        },
+        "D:/durgas/travel_tour/travelapp\\lib\\presentation\\language\\bindings",
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\language\\controller",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\language\\controller\\language_controller.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\language\\models",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\language\\models\\language_model.dart"
+         ]
+        },
+        "D:/durgas/travel_tour/travelapp\\lib\\presentation\\language\\routes",
+        "D:/durgas/travel_tour/travelapp\\lib\\presentation\\language\\utils",
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\language\\view",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\language\\view\\language_screen.dart"
+         ]
+        },
+        "D:/durgas/travel_tour/travelapp\\lib\\presentation\\language\\widgets"
+       ]
+      },
+      {
+       "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\messages_screen",
+       "list": [
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\messages_screen\\bindings",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\messages_screen\\bindings\\messages_binding.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\messages_screen\\controller",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\messages_screen\\controller\\messages_controller.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\messages_screen\\models",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\messages_screen\\models\\messages_item_model.dart",
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\messages_screen\\models\\messages_model.dart"
+         ]
+        },
+        "D:/durgas/travel_tour/travelapp\\lib\\presentation\\messages_screen\\utils",
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\messages_screen\\view",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\messages_screen\\view\\messages_screen.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\messages_screen\\widgets",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\messages_screen\\widgets\\messages_item_widget.dart"
+         ]
+        }
+       ]
+      },
+      {
+       "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\notification_screen",
+       "list": [
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\notification_screen\\bindings",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\notification_screen\\bindings\\notification_binding.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\notification_screen\\controller",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\notification_screen\\controller\\notification_controller.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\notification_screen\\models",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\notification_screen\\models\\notification_item_model.dart",
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\notification_screen\\models\\notification_model.dart"
+         ]
+        },
+        "D:/durgas/travel_tour/travelapp\\lib\\presentation\\notification_screen\\utils",
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\notification_screen\\view",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\notification_screen\\view\\notification_screen.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\notification_screen\\widgets",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\notification_screen\\widgets\\notification_item_widget.dart"
+         ]
+        }
+       ]
+      },
+      {
+       "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\popular_places_screen",
+       "list": [
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\popular_places_screen\\bindings",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\popular_places_screen\\bindings\\popular_places_binding.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\popular_places_screen\\controller",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\popular_places_screen\\controller\\popular_places_controller.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\popular_places_screen\\models",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\popular_places_screen\\models\\popular_places_item_model.dart",
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\popular_places_screen\\models\\popular_places_model.dart"
+         ]
+        },
+        "D:/durgas/travel_tour/travelapp\\lib\\presentation\\popular_places_screen\\utils",
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\popular_places_screen\\view",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\popular_places_screen\\view\\popular_places_screen.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\popular_places_screen\\widgets",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\popular_places_screen\\widgets\\popular_places_item_widget.dart"
+         ]
+        }
+       ]
+      },
+      {
+       "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\pop_up_dialog",
+       "list": [
+        "D:/durgas/travel_tour/travelapp\\lib\\presentation\\pop_up_dialog\\bindings",
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\pop_up_dialog\\controller",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\pop_up_dialog\\controller\\pop_up_controller.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\pop_up_dialog\\models",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\pop_up_dialog\\models\\pop_up_model.dart"
+         ]
+        },
+        "D:/durgas/travel_tour/travelapp\\lib\\presentation\\pop_up_dialog\\utils",
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\pop_up_dialog\\view",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\pop_up_dialog\\view\\pop_up_dialog.dart"
+         ]
+        },
+        "D:/durgas/travel_tour/travelapp\\lib\\presentation\\pop_up_dialog\\widgets"
+       ]
+      },
+      {
+       "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\profile_screen",
+       "list": [
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\profile_screen\\bindings",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\profile_screen\\bindings\\profile_binding.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\profile_screen\\controller",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\profile_screen\\controller\\profile_controller.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\profile_screen\\models",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\profile_screen\\models\\profile_model.dart"
+         ]
+        },
+        "D:/durgas/travel_tour/travelapp\\lib\\presentation\\profile_screen\\utils",
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\profile_screen\\view",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\profile_screen\\view\\profile_screen.dart"
+         ]
+        },
+        "D:/durgas/travel_tour/travelapp\\lib\\presentation\\profile_screen\\widgets"
+       ]
+      },
+      {
+       "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\schedule_screen",
+       "list": [
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\schedule_screen\\bindings",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\schedule_screen\\bindings\\schedule_binding.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\schedule_screen\\controller",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\schedule_screen\\controller\\schedule_controller.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\schedule_screen\\models",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\schedule_screen\\models\\schedule_model.dart"
+         ]
+        },
+        "D:/durgas/travel_tour/travelapp\\lib\\presentation\\schedule_screen\\utils",
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\schedule_screen\\view",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\schedule_screen\\view\\schedule_screen.dart"
+         ]
+        },
+        "D:/durgas/travel_tour/travelapp\\lib\\presentation\\schedule_screen\\widgets"
+       ]
+      },
+      {
+       "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\search_screen",
+       "list": [
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\search_screen\\bindings",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\search_screen\\bindings\\search_binding.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\search_screen\\controller",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\search_screen\\controller\\search_controller.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\search_screen\\models",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\search_screen\\models\\search_item_model.dart",
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\search_screen\\models\\search_model.dart"
+         ]
+        },
+        "D:/durgas/travel_tour/travelapp\\lib\\presentation\\search_screen\\utils",
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\search_screen\\view",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\search_screen\\view\\search_screen.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\search_screen\\widgets",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\search_screen\\widgets\\search_item_widget.dart"
+         ]
+        }
+       ]
+      },
+      {
+       "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\sign_in_screen",
+       "list": [
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\sign_in_screen\\bindings",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\sign_in_screen\\bindings\\sign_in_binding.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\sign_in_screen\\controller",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\sign_in_screen\\controller\\sign_in_controller.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\sign_in_screen\\models",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\sign_in_screen\\models\\sign_in_model.dart"
+         ]
+        },
+        "D:/durgas/travel_tour/travelapp\\lib\\presentation\\sign_in_screen\\utils",
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\sign_in_screen\\view",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\sign_in_screen\\view\\sign_in_screen.dart"
+         ]
+        },
+        "D:/durgas/travel_tour/travelapp\\lib\\presentation\\sign_in_screen\\widgets"
+       ]
+      },
+      {
+       "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\sign_up_screen",
+       "list": [
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\sign_up_screen\\bindings",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\sign_up_screen\\bindings\\sign_up_binding.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\sign_up_screen\\controller",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\sign_up_screen\\controller\\sign_up_controller.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\sign_up_screen\\models",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\sign_up_screen\\models\\sign_up_model.dart"
+         ]
+        },
+        "D:/durgas/travel_tour/travelapp\\lib\\presentation\\sign_up_screen\\utils",
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\sign_up_screen\\view",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\sign_up_screen\\view\\sign_up_screen.dart"
+         ]
+        },
+        "D:/durgas/travel_tour/travelapp\\lib\\presentation\\sign_up_screen\\widgets"
+       ]
+      },
+      {
+       "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\splash_screen",
+       "list": [
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\splash_screen\\bindings",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\splash_screen\\bindings\\splash_binding.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\splash_screen\\controller",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\splash_screen\\controller\\splash_controller.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\splash_screen\\models",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\splash_screen\\models\\splash_model.dart"
+         ]
+        },
+        "D:/durgas/travel_tour/travelapp\\lib\\presentation\\splash_screen\\utils",
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\splash_screen\\view",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\splash_screen\\view\\splash_screen.dart"
+         ]
+        },
+        "D:/durgas/travel_tour/travelapp\\lib\\presentation\\splash_screen\\widgets"
+       ]
+      },
+      {
+       "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\travel",
+       "list": [
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\travel\\bindings",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\travel\\bindings\\travel_binding.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\travel\\controller",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\travel\\controller\\travel_controller.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\travel\\models",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\travel\\models\\travel_model.dart"
+         ]
+        },
+        "D:/durgas/travel_tour/travelapp\\lib\\presentation\\travel\\utils",
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\travel\\view",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\travel\\view\\travel_ai.dart"
+         ]
+        },
+        "D:/durgas/travel_tour/travelapp\\lib\\presentation\\travel\\widgets"
+       ]
+      },
+      {
+       "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\verification_screen",
+       "list": [
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\verification_screen\\bindings",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\verification_screen\\bindings\\verification_binding.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\verification_screen\\controller",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\verification_screen\\controller\\verification_controller.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\verification_screen\\models",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\verification_screen\\models\\verification_model.dart"
+         ]
+        },
+        "D:/durgas/travel_tour/travelapp\\lib\\presentation\\verification_screen\\utils",
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\verification_screen\\view",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\verification_screen\\view\\verification_screen.dart"
+         ]
+        },
+        "D:/durgas/travel_tour/travelapp\\lib\\presentation\\verification_screen\\widgets"
+       ]
+      },
+      {
+       "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\view_screen",
+       "list": [
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\view_screen\\bindings",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\view_screen\\bindings\\view_binding.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\view_screen\\controller",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\view_screen\\controller\\view_controller.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\view_screen\\models",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\view_screen\\models\\view_model.dart"
+         ]
+        },
+        "D:/durgas/travel_tour/travelapp\\lib\\presentation\\view_screen\\utils",
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\view_screen\\view",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\view_screen\\view\\view_screen.dart"
+         ]
+        },
+        "D:/durgas/travel_tour/travelapp\\lib\\presentation\\view_screen\\widgets"
+       ]
+      },
+      {
+       "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\welcome",
+       "list": [
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\welcome\\bindings",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\welcome\\bindings\\pin_verification_binding.dart",
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\welcome\\bindings\\welcome_binding.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\welcome\\controller",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\welcome\\controller\\pin_verification_controller.dart",
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\welcome\\controller\\welcome_controller.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\welcome\\models",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\welcome\\models\\welcome_model.dart"
+         ]
+        },
+        "D:/durgas/travel_tour/travelapp\\lib\\presentation\\welcome\\utils",
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\welcome\\view",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\welcome\\view\\welcome.dart"
+         ]
+        },
+        {
+         "folder_path": "D:/durgas/travel_tour/travelapp\\lib\\presentation\\welcome\\widgets",
+         "list": [
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\welcome\\widgets\\phone_login_bottom_sheet.dart",
+          "D:/durgas/travel_tour/travelapp\\lib\\presentation\\welcome\\widgets\\pin_verification_screen.dart"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "D:/durgas/travel_tour/travelapp\\pubspec.yaml",
+  {
+   "folder_path": "D:/durgas/travel_tour/travelapp\\test",
+   "list": [
+    "D:/durgas/travel_tour/travelapp\\test\\widget_test.dart"
+   ]
+  }
+ ]
+}

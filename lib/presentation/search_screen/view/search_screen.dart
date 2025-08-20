@@ -3,10 +3,10 @@ import '../controller/search_controller.dart' as search_controller;
 import '../models/search_item_model.dart';
 import 'package:flutter/material.dart';
 import 'package:travelapp/core/app_export.dart';
-import 'package:travelapp/widgets/app_bar/appbar_iconbutton.dart';
-import 'package:travelapp/widgets/app_bar/appbar_subtitle_1.dart';
-import 'package:travelapp/widgets/app_bar/appbar_title.dart';
-import 'package:travelapp/widgets/app_bar/custom_app_bar.dart';
+import 'package:travelapp/core/widgets/app_bar/appbar_iconbutton.dart';
+import 'package:travelapp/core/widgets/app_bar/appbar_subtitle_1.dart';
+import 'package:travelapp/core/widgets/app_bar/appbar_title.dart';
+import 'package:travelapp/core/widgets/app_bar/custom_app_bar.dart';
 
 class SearchScreen extends GetWidget<search_controller.SearchController> {
   const SearchScreen({Key? key}) : super(key: key);

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:travelapp/core/app_export.dart';
-import 'package:travelapp/widgets/app_bar/appbar_iconbutton_1.dart';
-import 'package:travelapp/widgets/app_bar/appbar_subtitle.dart';
-import 'package:travelapp/widgets/app_bar/custom_app_bar.dart';
-import 'package:travelapp/widgets/custom_button.dart';
+import 'package:travelapp/core/widgets/app_bar/appbar_iconbutton_1.dart';
+import 'package:travelapp/core/widgets/app_bar/appbar_subtitle.dart';
+import 'package:travelapp/core/widgets/app_bar/custom_app_bar.dart';
+import 'package:travelapp/core/widgets/custom_button.dart';
 
 import '../controller/details_controller.dart';
 

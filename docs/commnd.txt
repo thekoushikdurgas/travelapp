@@ -83,6 +83,7 @@ tree /f > tree.dart.txt
 
 dir /s /b test\*.dart | sort > tree.dart.txt
 dir /s /b lib\*.dart | sort > tree.dart.txt
+cd docs && python views.py
 dart format .
 flutter analyze . > analysis.txt
 

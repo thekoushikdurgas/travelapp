@@ -1,7 +1,7 @@
 import '../controller/pop_up_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:travelapp/core/app_export.dart';
-import 'package:travelapp/widgets/custom_icon_button.dart';
+import 'package:travelapp/core/widgets/custom_icon_button.dart';
 
 // ignore_for_file: must_be_immutable
 class PopUpDialog extends StatelessWidget {

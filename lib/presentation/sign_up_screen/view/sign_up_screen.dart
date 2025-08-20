@@ -2,9 +2,9 @@ import '../controller/sign_up_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:travelapp/core/app_export.dart';
 import 'package:travelapp/core/utils/validation_functions.dart';
-import 'package:travelapp/widgets/custom_button.dart';
-import 'package:travelapp/widgets/custom_icon_button.dart';
-import 'package:travelapp/widgets/custom_text_form_field.dart';
+import 'package:travelapp/core/widgets/custom_button.dart';
+import 'package:travelapp/core/widgets/custom_icon_button.dart';
+import 'package:travelapp/core/widgets/custom_text_form_field.dart';
 
 // ignore_for_file: must_be_immutable
 class SignUpScreen extends GetWidget<SignUpController> {

@@ -1,10 +1,10 @@
-import '../controller/schedule_controller.dart';
+// import '../controller/schedule_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:travelapp/core/app_export.dart';
-import 'package:travelapp/widgets/app_bar/appbar_iconbutton.dart';
-import 'package:travelapp/widgets/app_bar/appbar_title.dart';
-import 'package:travelapp/widgets/app_bar/custom_app_bar.dart';
-import 'package:travelapp/widgets/custom_bottom_navigation_bar.dart';
+import 'package:travelapp/core/widgets/app_bar/appbar_iconbutton.dart';
+import 'package:travelapp/core/widgets/app_bar/appbar_title.dart';
+import 'package:travelapp/core/widgets/app_bar/custom_app_bar.dart';
+import 'package:travelapp/presentation/schedule_screen/controller/schedule_controller.dart';
 
 class ScheduleScreen extends GetWidget<ScheduleController> {
   const ScheduleScreen({Key? key}) : super(key: key);
@@ -15,9 +15,8 @@ class ScheduleScreen extends GetWidget<ScheduleController> {
       child: Scaffold(
         bottomNavigationBar: Obx(
           () => CustomBottomNavigationBar(
-            currentIndex: controller.currentIndex.value,
-            onTap: (index) => controller.changeBottomNavIndex(index),
-            items: controller.getBottomNavItems(),
+            currentIndex: 1,
+            context: context,
           ),
         ),
         backgroundColor: ColorConstant.whiteA700,

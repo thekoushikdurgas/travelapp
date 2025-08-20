@@ -3,9 +3,9 @@ import '../controller/favorite_places_controller.dart';
 import '../models/gridrectangle838_item_model.dart';
 import 'package:flutter/material.dart';
 import 'package:travelapp/core/app_export.dart';
-import 'package:travelapp/widgets/app_bar/appbar_iconbutton.dart';
-import 'package:travelapp/widgets/app_bar/appbar_title.dart';
-import 'package:travelapp/widgets/app_bar/custom_app_bar.dart';
+import 'package:travelapp/core/widgets/app_bar/appbar_iconbutton.dart';
+import 'package:travelapp/core/widgets/app_bar/appbar_title.dart';
+import 'package:travelapp/core/widgets/app_bar/custom_app_bar.dart';
 
 class FavoritePlacesScreen extends GetWidget<FavoritePlacesController> {
   const FavoritePlacesScreen({Key? key}) : super(key: key);
